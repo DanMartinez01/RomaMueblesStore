@@ -1,0 +1,10 @@
+.productContainer{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: whitesmoke;
+    height: 40%;
+    width:100%;
+    padding: 50px;
+}
+h3{
+    text-align: center;
+}
