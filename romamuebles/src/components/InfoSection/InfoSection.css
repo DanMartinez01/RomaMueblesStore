@@ -1,0 +1,33 @@
+.infoSection{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    height:250px;
+    background-color:whitesmoke;
+    text-align: center;
+    padding:15px;
+    padding-bottom: 15px;
+    margin-top:5px;
+    
+}
+.infoText{
+    text-align: left;
+    margin-right: 25px;
+    flex-direction: row;
+}
+@media (max-width:400px){
+    .infoSection{
+        flex-direction: column;
+        height:500px;
+          
+    }
+    .infoText{
+        flex-direction: column;
+        margin-top:1px;
+
+        
+
+             
+    }
+}

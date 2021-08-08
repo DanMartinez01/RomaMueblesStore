@@ -2,10 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
 
-import image1 from './Img/4.jpg';
-import image2 from './Img/5.jpg';
-import image3 from './Img/6.jpg';
-
+import image6 from './Img/6.jpg';
 
 export const Carrousel = () => {
     return (
@@ -15,7 +12,7 @@ export const Carrousel = () => {
                     className="carrouselImg"
                     width="100%"
                     height="10%"
-                    src={image1}
+                    src={image6}
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -27,7 +24,7 @@ export const Carrousel = () => {
                     className="carrouselImg"
                     width="100%"
                     height="10%"
-                    src={image2}
+                    src={image6}
                     alt="Third slide"
                 />
                 <Carousel.Caption>
@@ -39,7 +36,7 @@ export const Carrousel = () => {
                     className="carrouselImg"
                     width="100%"
                     height="10%"
-                    src={image3}
+                    src={image6}
                     alt="Third slide"
                 />
                 <Carousel.Caption>

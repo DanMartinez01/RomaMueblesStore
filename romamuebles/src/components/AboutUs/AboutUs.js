@@ -1,6 +1,8 @@
 import React from 'react';
 import './AboutUs.css';
 import { NavBar } from '../NavBar/NavBar';
+import { Banner } from '../Banner/Banner';
+import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
 
 
@@ -12,6 +14,7 @@ export const AboutUs = () => {
     return (
         <div>
             <NavBar />
+            <Banner />
             <div>
                 {/* <h3>Nosotros</h3> */}
                 <div className="product">
@@ -32,8 +35,8 @@ export const AboutUs = () => {
                         <p><b> Desde hace mas de 10 años junto a vos.</b></p>
                     </div>
                 </div>
-
             </div>
+            <InfoSection />
             <Footer />
         </div>
     )

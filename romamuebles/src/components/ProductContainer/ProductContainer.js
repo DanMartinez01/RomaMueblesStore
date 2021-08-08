@@ -5,7 +5,6 @@ import { SiWhatsapp } from "react-icons/si";
 
 export const ProductContainer = () => {
     return (
-
         <div class="productContainer">
             <h3>Muebles a medida</h3>
             <a
@@ -17,7 +16,6 @@ export const ProductContainer = () => {
                 <SiWhatsapp />
             </a>
             <Product />
-
         </div>
     )
 }

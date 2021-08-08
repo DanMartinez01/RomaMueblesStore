@@ -1,26 +1,28 @@
 import React from 'react';
 import './Contact.css';
-import Lottie from 'react-lottie';
-import call from '../../assets/Lottie/call.json';
+// import Lottie from 'react-lottie';
+// import call from '../../assets/Lottie/call.json';
 import { SiWhatsapp } from "react-icons/si";
 import { NavBar } from '../NavBar/NavBar';
+import { ContactBanner } from '../Contact/ContactBanner/ContactBanner';
+import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
 
 
+
 export const Contact = () => {
-    const defaultOptions = {
-
-        loop: true,
-        autoplay: true,
-        rendererSettings: {
-            preserveAspectRatio: 'xMidYMid slice',
-
-        }
-    }
+    // const defaultOptions = {
+    //     loop: true,
+    //     autoplay: true,
+    //     rendererSettings: {
+    //         preserveAspectRatio: 'xMidYMid slice',
+    //     }
+    // }
 
     return (
         <div>
             <NavBar />
+            <ContactBanner />
             <div>
                 <div>
                     <a
@@ -29,17 +31,20 @@ export const Contact = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <SiWhatsapp />
+                        <SiWhatsapp className="whatsapp-icon" />
                     </a>
                 </div>
-
+                {/* 
                 <div className="lottieAnimation">
                     <Lottie options={{
                         animationData: call, ...defaultOptions,
                     }}
                     />
-                </div>
+                </div> */}
+                <h3>Ubicacion:</h3>
+
             </div>
+            <InfoSection />
             <Footer />
         </div>
     )

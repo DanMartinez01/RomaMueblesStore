@@ -18,19 +18,20 @@ export const Footer = () => {
                 Te: 11223344
             </p>
             <p className="footerText">
-                <span className="iconSpan"><MdEmail
-                    fontSize="large"
-                    color="white">
-                </MdEmail>
+                <span className="iconSpan">
+                    <MdEmail
+                        fontSize="large"
+                        color="white">
+                    </MdEmail>
                 </span>
                 Email: romamuebles@gmail.com
             </p>
             <p className="footerText">
-                <span className="iconSpan"><FaFacebookSquare
-                    fontSize="large"
-                    color="white">
-
-                </FaFacebookSquare>
+                <span className="iconSpan">
+                    <FaFacebookSquare
+                        fontSize="large"
+                        color="white">
+                    </FaFacebookSquare>
                 </span>
                 Fb: Roma Muebles
             </p>
