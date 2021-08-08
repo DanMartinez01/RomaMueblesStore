@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.css';
 
-import qualityIcon from '../Carousel/Img/quality.png';
+// import qualityIcon from '../Carousel/Img/quality.png';
 
 export const Banner = () => {
 
