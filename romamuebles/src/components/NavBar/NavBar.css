@@ -62,13 +62,13 @@
     text-decoration: none;
   }
   .links:hover{
-    color:gray;
+    color:rebeccapurple;
   }
   a{
     color:black;
   }
   .link:hover{
-      color:gray;
+      color:rebeccapurple;
   }
   .right{
     display: flex;
