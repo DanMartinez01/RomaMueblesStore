@@ -48,6 +48,7 @@ export const Tables = () => {
                                 Ancho: 0,30
                                 <br />
                                 Profundidad: 0,30
+                                <br />
                             </b>
                         </p>
                     </div>
