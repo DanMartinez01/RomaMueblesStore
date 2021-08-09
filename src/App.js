@@ -2,7 +2,9 @@
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Container } from './components/Container/Container';
-import { ProductDetails } from './components/ProductDetails/ProductDetails';
+import { Beds } from './components/ProductDetails/Beds';
+import { Tables } from './components/ProductDetails/Tables';
+import { BedFrames } from './components/ProductDetails/BedFrames';
 import { AboutUs } from './components/AboutUs/AboutUs';
 import { Contact } from './components/Contact/Contact';
 
@@ -13,8 +15,14 @@ function App() {
         <Route path="/Contact" component={Contact}>
           <Contact />
         </Route>
-        <Route path="/ProductDetails" component={ProductDetails}>
-          <ProductDetails />
+        <Route path="/Beds" component={Beds}>
+          <Beds />
+        </Route>
+        <Route path="/Tables" component={Tables}>
+          <Tables />
+        </Route>
+        <Route path="/BedFrames" component={BedFrames}>
+          <BedFrames />
         </Route>
         <Route path="/AboutUs" component={AboutUs}>
           <AboutUs />

@@ -13,3 +13,7 @@
 .iconSpan{
     text-align: center;
 }
+.paymentMethodImg{
+    display: flex;
+   justify-content: flex-end;
+}

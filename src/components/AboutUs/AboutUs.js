@@ -7,8 +7,7 @@ import { Footer } from '../Footer/Footer';
 
 
 import image4 from '../Carousel/Img/4.jpg';
-// import image5 from '../Carousel/Img/5.jpg';
-// import image6 from '../Carousel/Img/6.jpg';
+
 export const AboutUs = () => {
 
     return (

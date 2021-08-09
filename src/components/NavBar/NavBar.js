@@ -12,7 +12,9 @@ export const NavBar = (props) => {
             <nav>
                 <ul className="links">
                     <li ><Link className="link" to='/AboutUs'>Nosotros</Link></li>
-                    <li ><Link className="link" to='/ProductDetails'>Camas</Link></li>
+                    <li ><Link className="link" to='/Beds'>Camas</Link></li>
+                    <li ><Link className="link" to='/Tables'>Mesitas de luz</Link></li>
+                    <li ><Link className="link" to='/BedFrames'>Respaldos</Link></li>
                     <li ><Link className="link" to='/Contact'>Contacto</Link></li>
                 </ul>
             </nav >

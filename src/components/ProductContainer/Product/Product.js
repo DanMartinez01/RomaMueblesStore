@@ -1,7 +1,7 @@
 import React from 'react';
 import './Product.css'
 
-import image6 from '../../../components/Carousel/Img/6.jpg';
+import image3 from '../../../components/Carousel/Img/3.jpg';
 
 export const Product = () => {
 
@@ -12,21 +12,21 @@ export const Product = () => {
                     className="productImage"
                     width="30%"
                     height="30%"
-                    src={image6}
+                    src={image3}
                     alt="First slide"
                 />
                 <img
                     className="productImage"
                     width="30%"
                     height="30%"
-                    src={image6}
+                    src={image3}
                     alt="First slide"
                 />
                 <img
                     className="productImage"
                     width="30%"
                     height="30%"
-                    src={image6}
+                    src={image3}
                     alt="First slide"
                 />
             </div>

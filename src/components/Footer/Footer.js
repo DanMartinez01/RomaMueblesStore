@@ -4,6 +4,8 @@ import { FaFacebookSquare } from 'react-icons/fa';
 import { SiWhatsapp } from "react-icons/si";
 import { MdEmail } from 'react-icons/md';
 import { MdLocationOn } from 'react-icons/md';
+
+import paymentIcon from '../Carousel/Img/payment.png';
 export const Footer = () => {
     return (
 
@@ -44,6 +46,13 @@ export const Footer = () => {
                 </span>
                 Jose C. Paz GBA
             </p>
+            <div className="paymentMethodImg">
+                <img
+                    src={paymentIcon}
+                    alt="medios de pago"
+                />
+            </div>
+
         </footer>
     )
 }
