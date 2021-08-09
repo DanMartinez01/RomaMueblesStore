@@ -7,7 +7,7 @@ import { Footer } from '../Footer/Footer';
 import { SiWhatsapp } from "react-icons/si";
 
 import image5 from '../Carousel/Img/5.jpg';
-import image6 from '../Carousel/Img/6.jpg';
+// import image6 from '../Carousel/Img/6.jpg';
 
 
 export const Tables = () => {
