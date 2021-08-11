@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutUs.css';
-import { NavBar } from '../NavBar/NavBar';
+import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Banner } from '../Banner/Banner';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
@@ -12,10 +12,9 @@ export const AboutUs = () => {
 
     return (
         <div>
-            <NavBar />
+            <NavBarComponent />
             <Banner />
             <div>
-                {/* <h3>Nosotros</h3> */}
                 <div className="product">
 
                     <img

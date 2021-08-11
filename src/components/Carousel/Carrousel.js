@@ -7,13 +7,14 @@ import image2 from './Img/2.jpg';
 import image3 from './Img/3.jpg';
 
 export const Carrousel = () => {
+    const controls = false;
     return (
         <Carousel fade={true} pause={false}>
             <Carousel.Item interval={3000}>
                 <img
                     className="carrouselImg"
                     width="100%"
-                    height="10%"
+                    height="550px"
                     src={image1}
                     alt="First slide"
                 />
@@ -25,7 +26,7 @@ export const Carrousel = () => {
                 <img
                     className="carrouselImg"
                     width="100%"
-                    height="10%"
+                    height="550px"
                     src={image2}
                     alt="Third slide"
                 />
@@ -37,7 +38,7 @@ export const Carrousel = () => {
                 <img
                     className="carrouselImg"
                     width="100%"
-                    height="10%"
+                    height="550px"
                     src={image3}
                     alt="Third slide"
                 />

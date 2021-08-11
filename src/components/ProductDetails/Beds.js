@@ -1,6 +1,6 @@
 import React from 'react';
 import './Beds.css';
-import { NavBar } from '../NavBar/NavBar';
+import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Banner } from '../Banner/Banner';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
@@ -13,7 +13,7 @@ export const Beds = () => {
 
     return (
         <div>
-            <NavBar />
+            <NavBarComponent />
             <Banner />
             <div>
                 <a

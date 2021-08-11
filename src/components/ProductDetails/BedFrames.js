@@ -1,6 +1,6 @@
 import React from 'react';
 import './BedFrames.css';
-import { NavBar } from '../NavBar/NavBar';
+import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Banner } from '../Banner/Banner';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
@@ -9,12 +9,11 @@ import { SiWhatsapp } from "react-icons/si";
 import image7 from '../Carousel/Img/7.jpg';
 
 
-
 export const BedFrames = () => {
 
     return (
         <div>
-            <NavBar />
+            <NavBarComponent />
             <Banner />
             <div>
                 <a

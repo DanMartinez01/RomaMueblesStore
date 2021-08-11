@@ -10,21 +10,21 @@ export const Product = () => {
             <div className="product">
                 <img
                     className="productImage"
-                    width="30%"
+                    width="32%"
                     height="30%"
                     src={image3}
                     alt="First slide"
                 />
                 <img
                     className="productImage"
-                    width="30%"
+                    width="32%"
                     height="30%"
                     src={image3}
                     alt="First slide"
                 />
                 <img
                     className="productImage"
-                    width="30%"
+                    width="32%"
                     height="30%"
                     src={image3}
                     alt="First slide"
