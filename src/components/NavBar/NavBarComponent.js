@@ -1,9 +1,9 @@
 import React from 'react';
 import './NavBarComponent.css';
 import { Link } from 'react-router-dom';
-import { FaInstagram } from 'react-icons/fa'
-import { FaFacebookSquare } from 'react-icons/fa';
-import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
+// import { FaInstagram } from 'react-icons/fa'
+// import { FaFacebookSquare } from 'react-icons/fa';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 
 export const NavBarComponent = (props) => {
 

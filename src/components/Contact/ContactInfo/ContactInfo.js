@@ -1,9 +1,9 @@
 import React from 'react';
 import './ContactInfo.css';
-import { FaFacebookSquare } from 'react-icons/fa';
-import { SiWhatsapp } from "react-icons/si";
-import { MdEmail } from 'react-icons/md';
-import { MdLocationOn } from 'react-icons/md';
+// import { FaFacebookSquare } from 'react-icons/fa';
+// import { SiWhatsapp } from "react-icons/si";
+// import { MdEmail } from 'react-icons/md';
+// import { MdLocationOn } from 'react-icons/md';
 
 // import paymentIcon from '../Carousel/Img/payment.png';
 
