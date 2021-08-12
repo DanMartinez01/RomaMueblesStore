@@ -1,4 +1,7 @@
-
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
 .whatsapp_float {
     position: fixed;
     width: 60px;

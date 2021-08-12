@@ -6,7 +6,7 @@ import { SiWhatsapp } from "react-icons/si";
 export const ProductContainer = () => {
     return (
         <div class="productContainer">
-            <h3>Muebles a medida</h3>
+            <h3>Nuestros productos</h3>
             <a
                 href="https://wa.me/5491160482934"
                 class="whatsapp_float"

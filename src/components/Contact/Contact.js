@@ -2,6 +2,7 @@ import React from 'react';
 import './Contact.css';
 // import Lottie from 'react-lottie';
 // import call from '../../assets/Lottie/call.json';
+import { SiWhatsapp } from 'react-icons/si'
 
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { ContactBanner } from '../Contact/ContactBanner/ContactBanner';
@@ -16,9 +17,21 @@ export const Contact = () => {
 
     return (
         <div>
+            <div>
+                <a
+                    href="https://wa.me/2348100000000"
+                    class="whatsapp_float"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa fa-whatsapp whatsapp-icon">
+                        <SiWhatsapp />
+                    </i>
+                </a>
+            </div>
             <NavBarComponent />
             <div>
-                <h3>Contacto</h3>
+                <h3>Contactanos</h3>
             </div>
             <ContactBanner />
             <ContactInfo />

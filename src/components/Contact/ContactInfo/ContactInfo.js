@@ -1,9 +1,10 @@
 import React from 'react';
 import './ContactInfo.css';
-// import { FaFacebookSquare } from 'react-icons/fa';
-// import { SiWhatsapp } from "react-icons/si";
-// import { MdEmail } from 'react-icons/md';
-// import { MdLocationOn } from 'react-icons/md';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { SiWhatsapp } from "react-icons/si";
+import { MdEmail } from 'react-icons/md';
+import { MdLocationOn } from 'react-icons/md';
+import { MdLocalPhone } from 'react-icons/md';
 
 // import paymentIcon from '../Carousel/Img/payment.png';
 
@@ -14,19 +15,20 @@ export const ContactInfo = () => {
                 <div className="row">
                     {/* Column1 */}
                     <div className="col">
-                        <h4>Roma Muebles</h4>
+                        <h4><b>Roma Muebles</b></h4>
                         <ui className="list-unstyled">
-                            <li>romamuebles@gmail.com</li>
-                            <li>Jose C. Paz. GBA</li>
+                            <li><MdEmail />romamuebles@gmail.com</li>
+                            <li><MdLocationOn />Jose C. Paz. GBA</li>
+                            <li><FaFacebookSquare />Roma Muebles</li>
                         </ui>
                     </div>
                     {/* Column2 */}
                     <div className="col">
-                        <h4>Teléfonos</h4>
+                        <h4><b>Teléfonos</b></h4>
                         <ui className="list-unstyled">
-                            <li>1130666726</li>
-                            <li>1121897830</li>
-                            <li>1175273793</li>
+                            <li><SiWhatsapp />1130666726</li>
+                            <li><SiWhatsapp />1121897830</li>
+                            <li><MdLocalPhone />1175273793</li>
                         </ui>
                     </div>
                 </div>

@@ -126,3 +126,11 @@ export const Beds = () => {
     )
 }
 export default Beds
+
+// export const Beds = () => {
+
+//     return (
+
+//     )
+// }
+// export default Beds

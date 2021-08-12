@@ -6,56 +6,7 @@ import './Footer.css';
 // import { MdLocationOn } from 'react-icons/md';
 
 // import paymentIcon from '../Carousel/Img/payment.png';
-// export const Footer = () => {
-//     return (
 
-//         <footer className="footer">
-//             <h3 className="footerText">Roma Muebles</h3>
-//             <p className="footerText">
-//                 <span className="iconSpan">
-//                     <SiWhatsapp fontSize="large"
-//                         color="white">
-//                     </SiWhatsapp>
-//                 </span>
-//                 Te: 11223344
-//             </p>
-//             <p className="footerText">
-//                 <span className="iconSpan">
-//                     <MdEmail
-//                         fontSize="large"
-//                         color="white">
-//                     </MdEmail>
-//                 </span>
-//                 Email: romamuebles@gmail.com
-//             </p>
-//             <p className="footerText">
-//                 <span className="iconSpan">
-//                     <FaFacebookSquare
-//                         fontSize="large"
-//                         color="white">
-//                     </FaFacebookSquare>
-//                 </span>
-//                 Fb: Roma Muebles
-//             </p>
-//             <p className="footerText">
-//                 <span>
-//                     <MdLocationOn
-//                         fontSize="large"
-//                         color="white">
-//                     </MdLocationOn>
-//                 </span>
-//                 Jose C. Paz GBA
-//             </p>
-//             {/* <div className="paymentMethodImg">
-//                 <img
-//                     src={paymentIcon}
-//                     alt="medios de pago"
-//                 />
-//             </div> */}
-
-//         </footer>
-//     )
-// }
 export const Footer = () => {
     return (
         <div className="main-footer">
@@ -65,9 +16,9 @@ export const Footer = () => {
                     <div className="col">
                         <h4>Roma Muebles</h4>
                         <ui className="list-unstyled">
-                            <li>342-420-6969</li>
-                            <li>Moscow, Russia</li>
-                            <li>123 Streeet South North</li>
+                            <li>Te: 1130666726</li>
+                            <li>Fb: Roma Muebles</li>
+                            <li>Jose C. Paz GBA</li>
                         </ui>
                     </div>
                     {/* Column2 */}

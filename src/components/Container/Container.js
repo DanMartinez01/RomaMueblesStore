@@ -3,10 +3,11 @@ import React from 'react';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Banner } from '../Banner/Banner'
 import { Carrousel } from '../Carousel/Carrousel'
-import { ProductContainer } from '../ProductContainer/ProductContainer'
+// import { ProductContainer } from '../ProductContainer/ProductContainer'
 import { InfoSection } from '../InfoSection/InfoSection'
 import { Footer } from '../Footer/Footer'
 import { SiWhatsapp } from "react-icons/si";
+import { Product } from '../ProductContainer/Product/Product';
 
 export const Container = () => {
 
@@ -27,7 +28,8 @@ export const Container = () => {
             <NavBarComponent />
             <Banner />
             <Carrousel />
-            <ProductContainer />
+            {/* <ProductContainer /> */}
+            <Product />
             <InfoSection />
             <Footer />
         </div>
