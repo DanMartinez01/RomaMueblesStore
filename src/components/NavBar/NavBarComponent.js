@@ -18,7 +18,7 @@ export const NavBarComponent = (props) => {
                         <Nav.Link as={Link} to={"/Beds"}>Camas</Nav.Link>
                         <Nav.Link as={Link} to={"/Tables"}>Mesas de luz</Nav.Link>
                         <Nav.Link as={Link} to={"/BedFrames"}>Respaldos</Nav.Link>
-                        <Nav.Link href="#pricing">Combos</Nav.Link>
+                        <Nav.Link as={Link} to={"/Sets"}>Combos</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link as={Link} to={"/AboutUs"}>Nosotros</Nav.Link>

@@ -5,6 +5,7 @@ import { Container } from './components/Container/Container';
 import { Beds } from './components/ProductDetails/Beds';
 import { Tables } from './components/ProductDetails/Tables';
 import { BedFrames } from './components/ProductDetails/BedFrames';
+import { Sets } from './components/ProductDetails/Sets';
 import { AboutUs } from './components/AboutUs/AboutUs';
 import { Contact } from './components/Contact/Contact';
 
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route path="/Contact" component={Contact}>
           <Contact />
+        </Route>
+        <Route path="/Sets" component={Sets}>
+          <Sets />
         </Route>
         <Route path="/Beds" component={Beds}>
           <Beds />

@@ -1,16 +1,17 @@
 import React from 'react';
-import './BedFrames.css';
+import './Sets.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Banner } from '../Banner/Banner';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
-import { SiWhatsapp } from 'react-icons/si';
-import { Link } from 'react-router-dom'
+import { SiWhatsapp } from "react-icons/si";
+import { Link } from 'react-router-dom';
 
+import image3 from '../Carousel/Img/3.jpg';
+import image5 from '../Carousel/Img/5.jpg';
 import image7 from '../Carousel/Img/7.jpg';
 
-
-export const BedFrames = () => {
+export const Sets = () => {
 
     return (
         <div>
@@ -26,24 +27,28 @@ export const BedFrames = () => {
                     <SiWhatsapp />
                 </a>
             </div>
+            <h3 className="comboDescription">Combo:<br />Cama-Mesas de luz-Respaldo<br />Precio:
+                <br />
+                <button className="buttonGoCart">
+                    <Link className="buttonGoCart" to='/CartView'>Lo quiero</Link>
+                </button>
+            </h3>
             <div className="wrapper">
                 <div className="product">
                     <div className="card">
                         <div className="productBox">
-                            <div className="imgContainer">
-                                <img src={image7} className="productPhoto"
-                                    alt="respaldo para cama"
-                                />
-                            </div>
+                            <img src={image3} className="productPhoto"
+                                alt="cama box con cajones"
+                            />
                             <div className="productContainer" >
                                 <h3>
-                                    <b>Cama Box con 6 cajones en total.<br />
+                                    <b>Cama Box con cajones<br />
 
                                     </b>
                                 </h3>
-                                <p className="productName"> Distribución:<br />
+                                {/* <p className="productName"> Distribución:<br />
                                     4 cajones laterales + 2 cajones frontales + Baulera Interna
-                                </p>
+                                </p> */}
                                 {/* <p className="productName">Cama Box</p> */}
                                 <p className="productPrice"><b>Precio:</b></p>
                                 <div className="descriptionText">
@@ -78,9 +83,56 @@ export const BedFrames = () => {
                                         </b>
                                     </p>
                                 </div>
-                                <button className="buttonGoCart">
-                                    <Link className="buttonGoCart" to='/CartView'>Comprar</Link>
-                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="product">
+                    <div className="card">
+                        <div className="productBox">
+                            <img src={image5} className="productPhoto"
+                                alt="mesa de luz flotante"
+                            />
+                            <div className="productContainer" >
+                                <h3>
+                                    <b>Mesa de luz flotante<br />
+
+                                    </b>
+                                </h3>
+                                {/* <p className="productName"> Distribución:<br />
+                                    4 cajones laterales + 2 cajones frontales + Baulera Interna
+                                </p> */}
+                                {/* <p className="productName">Cama Box</p> */}
+                                <p className="productPrice"><b>Precio:</b></p>
+                                <div className="descriptionText">
+                                    <p className="productPrice">
+                                        <h4><b>Medidas:</b></h4>
+                                        <b> <br />
+                                            <br />
+                                            Consultar
+                                            <br />
+                                            medidas
+                                            <br />
+                                            <br />
+                                            <br />
+                                        </b>
+                                    </p>
+                                </div>
+                                <div className="descriptionText">
+                                    <p className="colorText">
+                                        <h4><b>Colores:</b></h4>
+                                        <b>
+                                            <span class="dot-white"></span>Blanco
+                                            <br />
+                                            <span class="dot-black"></span> Negro
+                                            <br />
+                                            <span class="dot-lg-brown"></span>Cedro
+                                            <br />
+                                            <span class="dot-dk-brown"></span>Wengue
+                                        </b>
+                                    </p>
+                                </div>
                             </div>
 
                         </div>
@@ -89,20 +141,18 @@ export const BedFrames = () => {
                 <div className="product">
                     <div className="card">
                         <div>
-                            <div className="imgContainer">
-                                <img src={image7} className="productPhoto"
-                                    alt="respaldo para cama"
-                                />
-                            </div>
+                            <img src={image7} className="productPhoto"
+                                alt="respaldo de cama"
+                            />
                             <div className="productContainer" >
                                 <h3>
-                                    <b>Cama Box con 6 cajones en total.<br />
+                                    <b>Respaldo<br />
 
                                     </b>
                                 </h3>
-                                <p className="productName"> Distribución:<br />
+                                {/* <p className="productName"> Distribución:<br />
                                     4 cajones laterales + 2 cajones frontales + Baulera Interna
-                                </p>
+                                </p> */}
                                 {/* <p className="productName">Cama Box</p> */}
                                 <p className="productPrice"><b>Precio:</b></p>
                                 <div className="descriptionText">
@@ -137,19 +187,14 @@ export const BedFrames = () => {
                                         </b>
                                     </p>
                                 </div>
-                                <button className="buttonGoCart">
-                                    <Link className="buttonGoCart" to='/CartView'>Comprar</Link>
-                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
             <InfoSection />
             <Footer />
         </div>
     )
 }
-export default BedFrames
+export default Sets

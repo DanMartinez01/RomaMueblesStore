@@ -28,23 +28,28 @@ export const AboutUs = () => {
             <NavBarComponent />
             <Banner />
             <div>
-                <div className="product">
-
-                    <img
-                        className="productImage"
-                        width="50%"
-                        height="20%"
-                        src={image4}
-                        alt="First slide"
-                    />
-                    <div className="aboutDescription">
+                <div className="aboutUsContainer">
+                    <div className="aboutUsImgContainer">
                         <h3> <b>Quienes somos</b></h3>
-                        <p><b>Empresa familiar, dedicada a diseño y construccion de muebles artesanales</b></p>
-                        <br />
-                        <p><b>Nos enorgullece cada uno de nuestros productos y satisfacer al cliente</b></p>
-                        <br />
-                        <p><b> Desde hace mas de 10 años junto a vos.</b></p>
+                        <img
+                            className="aboutUsImage"
+                            width="50%"
+                            height="50%"
+                            src={image4}
+                            alt="First slide"
+                        />
                     </div>
+
+                    <div className="aboutDescription">
+                        <p><b>Roma Muebles es una empresa familiar, dedicada a diseño y construccion de muebles artesanales</b></p>
+                        {/* <br /> */}
+                        <p><b>Nos enorgullece cada uno de nuestros productos y satisfacer al cliente.</b></p>
+                        <br />
+                        <p><button className="buttonGoCart">Pedi tu presupuesto</button></p>
+                        <br />
+
+                    </div>
+
                 </div>
             </div>
             <InfoSection />
