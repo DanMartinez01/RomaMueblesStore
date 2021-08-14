@@ -1,5 +1,7 @@
 import React from 'react';
 import './InfoSection.css';
+// import { Nav, Navbar, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 export const InfoSection = () => {
@@ -40,11 +42,29 @@ export const InfoSection = () => {
                     </div>
                     {/* Column2 */}
                     <div className="col">
-                        <h4><b>Links utiles</b></h4>
+                        <h4><b>Productos</b></h4>
                         <ui className="list-unstyled">
-                            <li>Camas</li>
-                            <li>Mesitas</li>
-                            <li>Combos</li>
+                            {/* <Nav.Link as={Link} to={"/Beds"}>Camas</Nav.Link>
+                            <Nav.Link as={Link} to={"/Tables"}>Mesas de luz</Nav.Link>
+                            <Nav.Link as={Link} to={"/BedFrames"}>Respaldos</Nav.Link>
+                            <Nav.Link as={Link} to={"/Sets"}>Combos</Nav.Link> */}
+                            <Link className="infoSectionLink" to='/Beds'>Camas</Link>
+                            <br />
+                            <Link className="infoSectionLink" to='/Tables'>Mesas de luz</Link>
+                            <br />
+                            <Link className="infoSectionLink" to='/BedFrames'>Respaldos</Link>
+                            <br />
+                            <Link className="infoSectionLink" to='/Sets'>Combos</Link>
+                        </ui>
+                    </div>
+                    <div className="col">
+                        <h4><b>Links Utiles</b></h4>
+                        <ui className="list-unstyled">
+                            <Link className="infoSectionLink" to='/'>Home</Link>
+                            <br />
+                            <Link className="infoSectionLink" to='/AboutUs'>Nosotros</Link>
+                            <br />
+                            <Link className="infoSectionLink" to='/Contact'>Contacto</Link>
                         </ui>
                     </div>
                 </div>

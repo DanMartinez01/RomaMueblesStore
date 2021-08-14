@@ -41,7 +41,9 @@
         margin-top:1px;      
     }  
 } */
-
+.categoriesTitle{
+    text-align: center;
+}
 .main-info-section {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
@@ -53,3 +55,11 @@
     width: 100%;
     margin-bottom: 0px;
   }
+
+.infoSectionLink{
+    color:black;
+    text-decoration: none;
+}
+.infoSectionLink:hover{
+    color: rgb(80, 80, 80);
+}

@@ -7,7 +7,7 @@ import { Footer } from '../Footer/Footer';
 
 import { SiWhatsapp } from 'react-icons/si';
 
-import image4 from '../Carousel/Img/4.jpg';
+import image8 from '../Carousel/Img/8.jpg';
 
 export const AboutUs = () => {
 
@@ -33,9 +33,9 @@ export const AboutUs = () => {
                         <h3> <b>Quienes somos</b></h3>
                         <img
                             className="aboutUsImage"
-                            width="50%"
-                            height="50%"
-                            src={image4}
+                            width="80%"
+                            height="80%"
+                            src={image8}
                             alt="First slide"
                         />
                     </div>
@@ -46,8 +46,9 @@ export const AboutUs = () => {
                         <p><b>Nos enorgullece cada uno de nuestros productos y satisfacer al cliente.</b></p>
                         <br />
                         <p><button className="buttonGoCart">Pedi tu presupuesto</button></p>
-                        <br />
-
+                        {/* <br />
+                        <br /> */}
+                        <p><button className="btn-followUs">Seguinos en Facebook!</button></p>
                     </div>
 
                 </div>
