@@ -116,9 +116,10 @@
     display:flex;
     flex-direction: column;
     margin:auto;
+	flex-wrap: wrap;
     
 }
-@media (min-width:600px){
+@media (min-width:800px){
     .wrapper{
         flex-direction: row;
         align-items: center;

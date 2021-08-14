@@ -14,25 +14,20 @@ export const Footer = () => {
         <div className="main-footer">
             <div className="container">
                 <div className="row">
-                    {/* Column1 */}
                     <div className="col">
                         <h4>Roma Muebles</h4>
                         <ui className="list-unstyled">
-                            <a className="footerLinks" target="_blank" rel="noreferrer"
-                                href="https://www.facebook.com/Roma-muebles-110762931290216/">
+                            <li className="footerLinks" >
                                 <SiWhatsapp color="white" /> 1130666726
-                            </a>
-                            <br />
+                            </li>
                             <a className="footerLinks" target="_blank" rel="noreferrer"
                                 href="https://www.facebook.com/Roma-muebles-110762931290216/">
                                 <ImFacebook color="white" /> Facebook
                             </a>
                             <br />
-                            <a className="footerLinks" target="_blank" rel="noreferrer"
-                                href="https://www.facebook.com/Roma-muebles-110762931290216/">
+                            <li>
                                 <MdLocationOn color="white" /> Jose C. Paz GBA
-                            </a>
-                            {/* <li></li> */}
+                            </li>
                         </ui>
                     </div>
                     {/* Column2 */}

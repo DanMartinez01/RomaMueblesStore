@@ -1,7 +1,5 @@
 import React from 'react';
 import './Contact.css';
-// import Lottie from 'react-lottie';
-// import call from '../../assets/Lottie/call.json';
 import { SiWhatsapp } from 'react-icons/si'
 
 import { NavBarComponent } from '../NavBar/NavBarComponent';
@@ -10,11 +8,7 @@ import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
 import { ContactInfo } from './ContactInfo/ContactInfo';
 
-
-
 export const Contact = () => {
-
-
     return (
         <div>
             <div>

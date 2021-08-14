@@ -9,7 +9,7 @@ export const ContactBanner = () => {
         <div >
             <img className="contactBanner-img"
                 width="100%"
-                height="20%"
+                height="180px"
                 src={contactImg}
                 alt="contact info"
             />
