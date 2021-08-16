@@ -96,7 +96,7 @@ export const Product = () => {
                                 </div>
                                 <div className="colorStripe">
                                     <br />
-                                    <Link className="infoSectionLink" to='/Beds'><p>RESPALDOS</p></Link>
+                                    <Link className="infoSectionLink" to='/BedFrames'><p>RESPALDOS</p></Link>
                                     <br />
                                 </div>
                             </div>
@@ -108,7 +108,7 @@ export const Product = () => {
                         <div className="productBox">
                             <div className="productContainer" >
                                 <div className="imgContainer">
-                                    <Link to='/Beds'>
+                                    <Link to='/Sets'>
                                         <img src={image3} className="productPhoto"
                                             alt="cama box con cajones"
                                         />
@@ -116,7 +116,7 @@ export const Product = () => {
                                 </div>
                                 <div className="colorStripe">
                                     <br />
-                                    <Link className="infoSectionLink" to='/Beds'><p>PEDI EL COMBO!</p></Link>
+                                    <Link className="infoSectionLink" to='/Sets'><p>PEDI EL COMBO!</p></Link>
                                     <br />
                                 </div>
                             </div>

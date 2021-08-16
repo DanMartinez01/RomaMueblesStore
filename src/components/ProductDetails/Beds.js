@@ -44,7 +44,7 @@ export const Beds = () => {
                                     4 cajones laterales + 2 cajones frontales + Baulera Interna
                                 </p>
                                 {/* <p className="productName">Cama Box</p> */}
-                                <p className="productPrice"><b>Precio:</b></p>
+                                <h4 className="productPrice"><b>Efectivo: $ 25.000 <br />Otros medios de pago: $28.000</b></h4>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
@@ -57,9 +57,9 @@ export const Beds = () => {
                                             <br />
                                             Queen (160cm x1.90/200cm).
                                             <br />
-                                            2 1/2 (180cm x 200cm).
+                                            {/* 2 1/2 (180cm x 200cm).
                                             <br />
-                                            King (200cm x 200cm)
+                                            King (200cm x 200cm) */}
                                         </b>
                                     </p>
                                 </div>
@@ -104,7 +104,7 @@ export const Beds = () => {
                                     4 cajones laterales + 2 cajones frontales + Baulera Interna
                                 </p>
                                 {/* <p className="productName">Cama Box</p> */}
-                                <p className="productPrice"><b>Precio:</b></p>
+                                <h4 className="productPrice"><b>Efectivo: $ 25.000 <br />Otros medios de pago: $28.000</b></h4>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
@@ -117,9 +117,9 @@ export const Beds = () => {
                                             <br />
                                             Queen (160cm x1.90/200cm).
                                             <br />
-                                            2 1/2 (180cm x 200cm).
+                                            {/* 2 1/2 (180cm x 200cm).
                                             <br />
-                                            King (200cm x 200cm)
+                                            King (200cm x 200cm) */}
                                         </b>
                                     </p>
                                 </div>

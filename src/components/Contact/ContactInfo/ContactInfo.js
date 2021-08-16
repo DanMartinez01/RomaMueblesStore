@@ -12,23 +12,23 @@ export const ContactInfo = () => {
     return (
         <div className="main-contact-info">
             <div className="container">
+                <h2><b>Contacto</b></h2>
+                <br />
                 <div className="row">
-                    {/* Column1 */}
                     <div className="col">
                         <h4><b>Roma Muebles</b></h4>
                         <ui className="list-unstyled">
-                            <li><MdEmail />romamuebles@gmail.com</li>
-                            <li><MdLocationOn />Jose C. Paz. GBA</li>
-                            <li><FaFacebookSquare />Roma Muebles</li>
+                            <li><h4><MdEmail /> romamuebles@gmail.com</h4></li>
+                            <li> <h4><MdLocationOn /> Jose C. Paz. GBA</h4></li>
+                            <li> <h4><FaFacebookSquare /> Roma Muebles</h4></li>
                         </ui>
                     </div>
-                    {/* Column2 */}
                     <div className="col">
                         <h4><b>Teléfonos</b></h4>
                         <ui className="list-unstyled">
-                            <li><SiWhatsapp />1130666726</li>
-                            <li><SiWhatsapp />1121897830</li>
-                            <li><MdLocalPhone />1175273793</li>
+                            <li> <h4><SiWhatsapp /> 1130666726</h4></li>
+                            <li> <h4><SiWhatsapp /> 1121897830</h4></li>
+                            <li> <h4><MdLocalPhone /> 1175273793</h4></li>
                         </ui>
                     </div>
                 </div>

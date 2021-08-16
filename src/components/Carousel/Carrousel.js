@@ -9,17 +9,17 @@ import image7 from './Img/7.jpg';
 export const Carrousel = () => {
     return (
         <Carousel fade={true} pause={false} controls={false}>
+
             <Carousel.Item interval={3000}>
+
                 <img
-                    // className="margin:auto w-100"
+                    className="carrouselImg"
                     width="100%"
                     height="500px"
                     src={image3}
                     alt="First slide"
                 />
-                <Carousel.Caption>
-                    {/* <h3>Muebles a medida</h3> */}
-                </Carousel.Caption>
+
             </Carousel.Item>
             <Carousel.Item interval={3000}>
                 <img

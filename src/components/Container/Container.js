@@ -20,8 +20,8 @@ export const Container = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <i class="fa fa-whatsapp whatsapp-icon">
-                        <SiWhatsapp />
+                    <i class=" whatsapp-icon">
+                        <SiWhatsapp size="medium" />
                     </i>
                 </a>
             </div>

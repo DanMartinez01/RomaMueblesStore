@@ -65,6 +65,11 @@ export const InfoSection = () => {
                             <Link className="infoSectionLink" to='/AboutUs'>Nosotros</Link>
                             <br />
                             <Link className="infoSectionLink" to='/Contact'>Contacto</Link>
+                            <br />
+                            <a className="infoSectionLink" target="_blank" rel="noreferrer"
+                                href="https://www.facebook.com/Roma-muebles-110762931290216/">
+                                Seguinos
+                            </a>
                         </ui>
                     </div>
                 </div>

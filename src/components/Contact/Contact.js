@@ -24,9 +24,6 @@ export const Contact = () => {
                 </a>
             </div>
             <NavBarComponent />
-            <div>
-                <h3>Contactanos</h3>
-            </div>
             <ContactBanner />
             <ContactInfo />
             <InfoSection />

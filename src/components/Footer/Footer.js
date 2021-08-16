@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { ImFacebook } from 'react-icons/im';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 // import { FaFacebookSquare } from 'react-icons/fa';
 import { SiWhatsapp } from "react-icons/si";
 // import { MdEmail } from 'react-icons/md';
@@ -31,7 +31,7 @@ export const Footer = () => {
                         </ui>
                     </div>
                     {/* Column2 */}
-                    <div className="col">
+                    {/* <div className="col">
                         <h4>Links Utiles</h4>
                         <ui className="list-unstyled">
 
@@ -45,7 +45,7 @@ export const Footer = () => {
                             </a>
 
                         </ui>
-                    </div>
+                    </div> */}
                 </div>
                 <hr />
                 <div className="row">

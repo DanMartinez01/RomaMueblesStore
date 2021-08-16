@@ -193,3 +193,10 @@ a.buttonGoCart{
 	font-family: 'Josefin Sans', sans-serif;
 	padding: 0px;
 }
+
+.categoriesTitle{
+	background-color: orange;
+	padding: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bolder;
+}
