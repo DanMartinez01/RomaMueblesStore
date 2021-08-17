@@ -4,7 +4,6 @@ import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Banner } from '../Banner/Banner';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
-import { SiWhatsapp } from "react-icons/si";
 import { Link } from 'react-router-dom';
 
 import image3 from '../Carousel/Img/3.jpg';
@@ -17,16 +16,6 @@ export const Sets = () => {
         <div>
             <NavBarComponent />
             <Banner />
-            <div>
-                <a
-                    href="https://wa.me/5491160482934"
-                    class="whatsapp_float"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <SiWhatsapp />
-                </a>
-            </div>
             <h3 className="comboDescription">Combo:<br />Cama-Mesas de luz-Respaldo<br />Precio:
                 <br />
                 <button className="buttonGoCart">

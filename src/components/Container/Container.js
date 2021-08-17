@@ -12,16 +12,16 @@ import { Product } from '../ProductContainer/Product/Product';
 export const Container = () => {
 
     return (
-        <div class="page-container">
+        <div className="page-container">
             <div>
                 <a
                     href="https://wa.me/2348100000000"
-                    class="whatsapp_float"
+                    className="whatsapp_float"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <i class=" whatsapp-icon">
-                        <SiWhatsapp size="medium" />
+                    <i className=" whatsapp-icon">
+                        <SiWhatsapp size="large" />
                     </i>
                 </a>
             </div>

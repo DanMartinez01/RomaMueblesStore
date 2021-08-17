@@ -8,11 +8,13 @@ import { BedFrames } from './components/ProductDetails/BedFrames';
 import { Sets } from './components/ProductDetails/Sets';
 import { AboutUs } from './components/AboutUs/AboutUs';
 import { Contact } from './components/Contact/Contact';
+import { SiWhatsapp } from 'react-icons/si';
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
+
         <Route path="/Contact" component={Contact}>
           <Contact />
         </Route>
@@ -32,6 +34,18 @@ function App() {
           <AboutUs />
         </Route>
         <Route exact path="/" component={Container}>
+          <div>
+            <a
+              href="https://wa.me/2348100000000"
+              className="whatsapp_float"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className=" whatsapp-icon">
+                <SiWhatsapp size="large" />
+              </i>
+            </a>
+          </div>
           <Container />
         </Route>
       </Switch>

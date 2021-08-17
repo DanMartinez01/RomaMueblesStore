@@ -4,7 +4,6 @@ import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Banner } from '../Banner/Banner';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
-import { SiWhatsapp } from 'react-icons/si';
 import { Link } from 'react-router-dom'
 
 import image7 from '../Carousel/Img/7.jpg';
@@ -16,16 +15,6 @@ export const BedFrames = () => {
         <div>
             <NavBarComponent />
             <Banner />
-            <div>
-                <a
-                    href="https://wa.me/5491160482934"
-                    class="whatsapp_float"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <SiWhatsapp />
-                </a>
-            </div>
             <div className="wrapper">
                 <div className="product">
                     <div className="card">
