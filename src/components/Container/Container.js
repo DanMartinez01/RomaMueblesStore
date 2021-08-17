@@ -1,7 +1,7 @@
 import React from 'react';
 // import './Container.css'
 import { NavBarComponent } from '../NavBar/NavBarComponent';
-import { Banner } from '../Banner/Banner'
+// import { Banner } from '../Banner/Banner'
 import { Carrousel } from '../Carousel/Carrousel'
 // import { ProductContainer } from '../ProductContainer/ProductContainer'
 import { InfoSection } from '../InfoSection/InfoSection'
@@ -26,7 +26,7 @@ export const Container = () => {
                 </a>
             </div>
             <NavBarComponent />
-            <Banner />
+            {/* <Banner /> */}
             <Carrousel />
             {/* <ProductContainer /> */}
             <Product />
