@@ -11,40 +11,38 @@ import image11 from './Img/11.jpg';
 
 export const Carrousel = () => {
     return (
+        <div>
 
-        <Carousel fade={true} pause={false} controls={false} >
-            <Carousel.Item interval={3000} >
-                <img
-                    className="d-block w-100"
-                    src={image9}
-                    alt="First slide"
-                />
-            </Carousel.Item>
-            <Carousel.Item interval={3000}>
-                <img
+            <Carousel fade={true} pause={false} controls={false} >
+                <Carousel.Item interval={3000} >
+                    <img
+                        className="d-block w-100 h-60"
+                        src={image9}
+                        alt="First slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item interval={3000}>
+                    <img
 
-                    className="d-block w-100"
-                    src={image10}
-                    alt="Third slide"
-                />
-                <Carousel.Caption>
-                    {/* <h3>Muebles a medida</h3> */}
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item interval={3000}>
-                <img
+                        className="d-block w-100"
+                        src={image10}
+                        alt="Third slide"
+                    />
+                    <Carousel.Caption>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={3000}>
+                    <img
 
-                    className="d-block w-100"
-                    src={image11}
-                    alt="Third slide"
-                />
-                <Carousel.Caption>
-                    {/* <h2>Muebles a medida</h2> */}
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
-
-
+                        className="d-block w-100"
+                        src={image11}
+                        alt="Third slide"
+                    />
+                    <Carousel.Caption>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+        </div>
     )
 }
 

@@ -10,6 +10,9 @@ export const Contact = () => {
     return (
         <div>
             <NavBarComponent />
+            <div className="bannerStripe">
+                <h1>Contacto</h1>
+            </div>
             <ContactBanner />
             <ContactInfo />
             <InfoSection />

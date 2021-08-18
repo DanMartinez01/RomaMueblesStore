@@ -1,7 +1,6 @@
 import React from 'react';
 import './Tables.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
-import { Banner } from '../Banner/Banner';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
 import { Link } from 'react-router-dom';
@@ -15,7 +14,9 @@ export const Tables = () => {
     return (
         <div>
             <NavBarComponent />
-            <Banner />
+            <div className="bannerStripe">
+                <h1>Mesas de luz</h1>
+            </div>
             <div className="wrapper">
                 <div className="product">
                     <div className="card">

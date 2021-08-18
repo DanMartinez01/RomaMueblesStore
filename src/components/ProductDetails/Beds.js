@@ -1,7 +1,6 @@
 import React from 'react';
 import './Beds.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
-import { Banner } from '../Banner/Banner';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
 import { Link } from 'react-router-dom';
@@ -14,7 +13,9 @@ export const Beds = () => {
     return (
         <div>
             <NavBarComponent />
-            <Banner />
+            <div className="bannerStripe">
+                <h1>Camas</h1>
+            </div>
             <div className="wrapper">
                 <div className="product">
                     <div className="card">

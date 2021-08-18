@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutUs.css';
+// import { Link } from 'react-router-dom';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
-import { Banner } from '../Banner/Banner';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
 import image8 from '../Carousel/Img/8.jpg';
@@ -11,7 +11,12 @@ export const AboutUs = () => {
     return (
         <div>
             <NavBarComponent />
-            <Banner />
+            <div className="bannerStripe">
+                <h1 className="bannerStripeText">
+                    {/* <span> <Link className="infoSectionLink" to='/'>Roma muebles</Link></span> */}
+                    Nosotros
+                </h1>
+            </div>
             <div>
                 <div className="aboutUsContainer">
                     <div className="aboutUsImgContainer">
@@ -30,7 +35,14 @@ export const AboutUs = () => {
                         {/* <br /> */}
                         <p><b>Nos enorgullece cada uno de nuestros productos y satisfacer al cliente.</b></p>
                         <br />
-                        <p><button className="buttonGoCart">Pedi tu presupuesto</button></p>
+                        <p><button className="buttonGoCart">
+                            <a className="buttonGoCart"
+                                href="https://wa.me/9541130666726"
+                                target="_blank"
+                                rel="noopener noreferrer" >
+                                Pedi tu presupuesto!
+                            </a>
+                        </button></p>
                         {/* <br />
                         <br /> */}
                         <p><button className="btn-followUs">Seguinos en Facebook!</button></p>

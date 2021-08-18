@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sets.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
-import { Banner } from '../Banner/Banner';
+
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
 import { Link } from 'react-router-dom';
@@ -15,7 +15,9 @@ export const Sets = () => {
     return (
         <div>
             <NavBarComponent />
-            <Banner />
+            <div className="bannerStripe">
+                <h1>Combos</h1>
+            </div>
             <h3 className="comboDescription">Combo:<br />Cama-Mesas de luz-Respaldo<br />Precio:
                 <br />
                 <button className="buttonGoCart">
