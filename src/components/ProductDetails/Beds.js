@@ -41,15 +41,11 @@ export const Beds = () => {
                                         <b>
                                             1 Plaza
                                             <br />
-                                            1 1/2 Plaza
-                                            <br />
                                             2 plazas (140cm x 190cm).
                                             <br />
                                             Queen (160cm x1.90/200cm).
                                             <br />
-                                            {/* 2 1/2 (180cm x 200cm).
-                                            <br />
-                                            King (200cm x 200cm) */}
+                                            Consulte por otras medidas
                                         </b>
                                     </p>
                                 </div>
@@ -101,15 +97,11 @@ export const Beds = () => {
                                         <b>
                                             1 Plaza
                                             <br />
-                                            1 1/2 Plaza
-                                            <br />
                                             2 plazas (140cm x 190cm).
                                             <br />
                                             Queen (160cm x1.90/200cm).
                                             <br />
-                                            {/* 2 1/2 (180cm x 200cm).
-                                            <br />
-                                            King (200cm x 200cm) */}
+                                            Consulte por otras medidas
                                         </b>
                                     </p>
                                 </div>
