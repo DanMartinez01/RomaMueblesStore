@@ -1,44 +1,46 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
-
-// import image3 from './Img/3.jpg';
-// import image4 from './Img/4.jpg';
-// import image7 from './Img/7.jpg';
-import image9 from './Img/9.jpg';
-import image10 from './Img/10.jpg';
-import image11 from './Img/11.jpg';
+import image3 from './Img/3.jpg';
+import image4 from './Img/4.jpg';
 
 export const Carrousel = () => {
     return (
         <div>
+            {/* <h1 className="carousel-caption">Calidad</h1> */}
+            <Carousel variant="dark" fade={true} pause={false} controls={true}  >
 
-            <Carousel fade={true} pause={false} controls={false} >
-                <Carousel.Item interval={3000} >
+                <Carousel.Item align="center" interval={3000} >
+                    <Carousel.Caption>
+
+                    </Carousel.Caption>
                     <img
-                        className="d-block w-100 h-60"
-                        src={image9}
+                        className="d-block w-50"
+                        fluid
+                        src={image3}
                         alt="First slide"
                     />
                 </Carousel.Item>
-                <Carousel.Item interval={3000}>
+                <Carousel.Item align="center" interval={3000}>
                     <img
-
-                        className="d-block w-100"
-                        src={image10}
+                        className="d-block w-50"
+                        fluid
+                        src={image4}
                         alt="Third slide"
                     />
                     <Carousel.Caption>
+
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={3000}>
+                <Carousel.Item align="center" interval={3000}>
                     <img
-
-                        className="d-block w-100"
-                        src={image11}
+                        className="d-block w-50"
+                        fluid
+                        src={image3}
                         alt="Third slide"
                     />
                     <Carousel.Caption>
+
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

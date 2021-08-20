@@ -26,7 +26,6 @@
     margin:0 auto;
     width:350px;
     height:250px;
-    border-radius: 10px;
 }
 .productName, .productPrice{
     font-family: 'Josefin Sans', sans-serif;

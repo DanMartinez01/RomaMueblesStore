@@ -26,9 +26,11 @@ export const Container = () => {
                 </a>
             </div>
             <NavBarComponent />
-            {/* <Banner /> */}
+            <div className="containerTitle">
+                <h3 className="containerTitle">Calidad Premium<br />Asesoramiento personalizado</h3>
+            </div>
+
             <Carrousel />
-            {/* <ProductContainer /> */}
             <Product />
             <InfoSection />
             <Footer />

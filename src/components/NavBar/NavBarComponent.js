@@ -15,7 +15,6 @@ export const NavBarComponent = (props) => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-
                         <Nav.Link as={Link} to={"/Beds"}>Camas</Nav.Link>
                         <Nav.Link as={Link} to={"/Tables"}>Mesas de luz</Nav.Link>
                         <Nav.Link as={Link} to={"/BedFrames"}>Respaldos</Nav.Link>

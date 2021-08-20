@@ -1,7 +1,6 @@
 import React from 'react';
 import './Contact.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
-import { ContactBanner } from '../Contact/ContactBanner/ContactBanner';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
 import { ContactInfo } from './ContactInfo/ContactInfo';
@@ -11,9 +10,9 @@ export const Contact = () => {
         <div>
             <NavBarComponent />
             <div className="bannerStripe">
-                <h1>Contacto</h1>
+                <h1>Contactanos!</h1>
             </div>
-            <ContactBanner />
+            {/* <ContactBanner /> */}
             <ContactInfo />
             <InfoSection />
             <Footer />

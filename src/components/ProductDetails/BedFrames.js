@@ -6,6 +6,7 @@ import { Footer } from '../Footer/Footer';
 import { Link } from 'react-router-dom'
 
 import image7 from '../Carousel/Img/7.jpg';
+import image9 from '../Carousel/Img/9.jpg';
 
 
 export const BedFrames = () => {
@@ -80,7 +81,7 @@ export const BedFrames = () => {
                     <div className="card">
                         <div>
                             <div className="imgContainer">
-                                <img src={image7} className="productPhoto"
+                                <img src={image9} className="productPhoto"
                                     alt="respaldo para cama"
                                 />
                             </div>

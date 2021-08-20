@@ -139,7 +139,6 @@
     margin:0 auto;
     width:320px;
     height:200px;
-    border-radius: 10px;
 }
 .productPhoto:hover {
 	transform: scale(1.1); 

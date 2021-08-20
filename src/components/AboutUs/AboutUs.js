@@ -4,7 +4,9 @@ import './AboutUs.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
-import image8 from '../Carousel/Img/8.jpg';
+// import image11 from '../Carousel/Img/11.jpg';
+import image10 from '../Carousel/Img/10.jpg';
+
 
 export const AboutUs = () => {
 
@@ -25,7 +27,7 @@ export const AboutUs = () => {
                             className="aboutUsImage"
                             width="80%"
                             height="80%"
-                            src={image8}
+                            src={image10}
                             alt="First slide"
                         />
                     </div>
@@ -43,8 +45,6 @@ export const AboutUs = () => {
                                 Pedi tu presupuesto!
                             </a>
                         </button></p>
-                        {/* <br />
-                        <br /> */}
                         <p><button className="btn-followUs">Seguinos en Facebook!</button></p>
                     </div>
 

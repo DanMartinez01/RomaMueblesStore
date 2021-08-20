@@ -17,16 +17,15 @@
   .col{
     margin-top:10px;
   }
-  }
+  }*/
   
   .contactInfoLinks{
     text-decoration: none;
-    color:black;
-    font-weight: bolder;
+    color: #fff;
   }
   .contactInfoLinks:hover{
     color:black;
-  } */
+  } 
 
   *{
     margin: 0;
@@ -56,7 +55,7 @@
     padding: 0 20px;
     margin: 0 10px;
     width: calc(33% - 20px);
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
