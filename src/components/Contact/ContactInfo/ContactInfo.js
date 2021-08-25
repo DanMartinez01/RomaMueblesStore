@@ -19,9 +19,8 @@ export const ContactInfo = () => {
                         href="https://www.facebook.com/Roma-muebles-110762931290216/">
                         <h5><FaFacebookSquare color="white" /> Roma Muebles</h5>
                     </a>
-                    <p> <MdEmail /> nestoraquino1984@gmail.com</p>
+                    <p>nestoraquino1984@gmail.com</p>
                 </div>
-
                 <div class="contactCard">
                     <i class="card-icon"><MdLocalPhone /></i>
                     <a className="contactInfoLinks"

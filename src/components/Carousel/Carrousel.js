@@ -7,15 +7,14 @@ import image4 from './Img/4.jpg';
 export const Carrousel = () => {
     return (
         <div>
-            {/* <h1 className="carousel-caption">Calidad</h1> */}
             <Carousel variant="dark" fade={true} pause={false} controls={true}  >
 
                 <Carousel.Item align="center" interval={3000} >
                     <Carousel.Caption>
-
                     </Carousel.Caption>
                     <img
-                        className="d-block w-50"
+                        className="carrousel-Img"
+                        width="70%"
                         fluid
                         src={image3}
                         alt="First slide"
@@ -23,7 +22,8 @@ export const Carrousel = () => {
                 </Carousel.Item>
                 <Carousel.Item align="center" interval={3000}>
                     <img
-                        className="d-block w-50"
+                        className="carrousel-Img"
+                        width="70%"
                         fluid
                         src={image4}
                         alt="Third slide"
@@ -34,7 +34,8 @@ export const Carrousel = () => {
                 </Carousel.Item>
                 <Carousel.Item align="center" interval={3000}>
                     <img
-                        className="d-block w-50"
+                        className="carrousel-Img"
+                        width="70%"
                         fluid
                         src={image3}
                         alt="Third slide"

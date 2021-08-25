@@ -44,10 +44,6 @@ export const InfoSection = () => {
                     <div className="col">
                         <h4><b>Productos</b></h4>
                         <ui className="list-unstyled">
-                            {/* <Nav.Link as={Link} to={"/Beds"}>Camas</Nav.Link>
-                            <Nav.Link as={Link} to={"/Tables"}>Mesas de luz</Nav.Link>
-                            <Nav.Link as={Link} to={"/BedFrames"}>Respaldos</Nav.Link>
-                            <Nav.Link as={Link} to={"/Sets"}>Combos</Nav.Link> */}
                             <Link className="infoSectionLink" to='/Beds'>Camas</Link>
                             <br />
                             <Link className="infoSectionLink" to='/Tables'>Mesas de luz</Link>

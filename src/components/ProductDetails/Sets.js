@@ -18,7 +18,7 @@ export const Sets = () => {
             <div className="bannerStripe">
                 <h1>Combos</h1>
             </div>
-            <h3 className="comboDescription">Combo:<br />Cama-Mesas de luz-Respaldo<br />Precio:
+            <h3 className="comboDescription">Cama-Mesas de luz-Respaldo<br />Precio: $
                 <br />
                 <button className="buttonGoCart">
                     <Link className="buttonGoCart" to='/CartView'>Lo quiero</Link>
@@ -37,11 +37,6 @@ export const Sets = () => {
 
                                     </b>
                                 </h3>
-                                {/* <p className="productName"> Distribución:<br />
-                                    4 cajones laterales + 2 cajones frontales + Baulera Interna
-                                </p> */}
-                                {/* <p className="productName">Cama Box</p> */}
-                                {/* <p className="productPrice"><b>Precio:</b></p> */}
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
@@ -53,12 +48,7 @@ export const Sets = () => {
                                         <h4><b>Colores:</b></h4>
                                         <b>
                                             <span class="dot-white"></span>Blanco
-                                            <br />
-                                            <span class="dot-black"></span> Negro
-                                            <br />
-                                            <span class="dot-lg-brown"></span>Cedro
-                                            <br />
-                                            <span class="dot-dk-brown"></span>Wengue
+
                                         </b>
                                     </p>
                                 </div>
@@ -95,12 +85,7 @@ export const Sets = () => {
                                         <h4><b>Colores:</b></h4>
                                         <b>
                                             <span class="dot-white"></span>Blanco
-                                            <br />
-                                            <span class="dot-black"></span> Negro
-                                            <br />
-                                            <span class="dot-lg-brown"></span>Cedro
-                                            <br />
-                                            <span class="dot-dk-brown"></span>Wengue
+
                                         </b>
                                     </p>
                                 </div>
@@ -121,16 +106,10 @@ export const Sets = () => {
 
                                     </b>
                                 </h3>
-                                {/* <p className="productName"> Distribución:<br />
-                                    4 cajones laterales + 2 cajones frontales + Baulera Interna
-                                </p> */}
-                                {/* <p className="productName">Cama Box</p> */}
-                                {/* <p className="productPrice"><b>Precio:</b></p> */}
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
                                         <b>
-
                                         </b>
                                     </p>
                                 </div>
@@ -140,11 +119,6 @@ export const Sets = () => {
                                         <b>
                                             <span class="dot-white"></span>Blanco
                                             <br />
-                                            <span class="dot-black"></span> Negro
-                                            <br />
-                                            <span class="dot-lg-brown"></span>Cedro
-                                            <br />
-                                            <span class="dot-dk-brown"></span>Wengue
                                         </b>
                                     </p>
                                 </div>

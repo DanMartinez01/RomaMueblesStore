@@ -9,7 +9,7 @@ export const Product = () => {
 
     return (
         <div>
-            <h1 className="categoriesTitle">Categorías</h1>
+            <h1 className="categoriesTitle">Nuestros productos</h1>
             <div className="wrapper">
                 <div className="product">
                     <div className="card">

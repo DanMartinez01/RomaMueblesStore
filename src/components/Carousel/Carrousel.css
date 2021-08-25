@@ -1,3 +1,15 @@
 .carousel-caption{
     color:black;
 }
+/* 
+.carrousel-Img{
+    width:"70%";
+    justify-content: center;
+    margin:0 auto;
+} */
+
+@media (min-width:800px){
+    .img{
+        width: 100%;
+    }
+}

@@ -7,7 +7,10 @@ import { SiWhatsapp } from "react-icons/si";
 // import { MdEmail } from 'react-icons/md';
 import { MdLocationOn } from 'react-icons/md';
 
-// import paymentIcon from '../Carousel/Img/payment.png';
+import visa from '../Carousel/Img/visa.png';
+import mastercard from '../Carousel/Img/mastercard.png';
+import mercadopago from '../Carousel/Img/mercadopago.png';
+import pagofacil from '../Carousel/Img/pagofacil.png';
 
 export const Footer = () => {
     return (
@@ -30,22 +33,36 @@ export const Footer = () => {
                             </li>
                         </ui>
                     </div>
-                    {/* Column2 */}
-                    {/* <div className="col">
-                        <h4>Links Utiles</h4>
-                        <ui className="list-unstyled">
-
-                            <Link className="footerLinks" to='/Contact'>Contacto</Link>
-                            <br />
-                            <Link className="footerLinks" to='/AboutUs'>Nosotros</Link>
-                            <br />
-                            <a className="footerLinks" target="_blank" rel="noreferrer"
-                                href="https://www.facebook.com/Roma-muebles-110762931290216/">
-                                Seguinos
-                            </a>
-
-                        </ui>
-                    </div> */}
+                    <div>
+                        <img
+                            alt="visa"
+                            src={visa}
+                            fluid
+                            width="50px"
+                            height="30px"
+                        />
+                        <img
+                            alt="master card"
+                            src={mastercard}
+                            fluid
+                            width="30px"
+                            height="30px"
+                        />
+                        <img
+                            alt="mercado pago"
+                            src={mercadopago}
+                            fluid
+                            width="40px"
+                            height="20px"
+                        />
+                        <img
+                            alt="pago facil"
+                            src={pagofacil}
+                            fluid
+                            width="40px"
+                            height="20px"
+                        />
+                    </div>
                 </div>
                 <hr />
                 <div className="row">
