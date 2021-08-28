@@ -17,7 +17,7 @@ export const Carrousel = () => {
                         width="70%"
                         fluid
                         src={image3}
-                        alt="First slide"
+                        alt="cama box con cajones"
                     />
                 </Carousel.Item>
                 <Carousel.Item align="center" interval={3000}>
@@ -26,7 +26,7 @@ export const Carrousel = () => {
                         width="70%"
                         fluid
                         src={image4}
-                        alt="Third slide"
+                        alt="cama box con cajones"
                     />
                     <Carousel.Caption>
 
@@ -38,7 +38,7 @@ export const Carrousel = () => {
                         width="70%"
                         fluid
                         src={image3}
-                        alt="Third slide"
+                        alt="cama box con cajones"
                     />
                     <Carousel.Caption>
 

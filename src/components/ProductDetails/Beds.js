@@ -8,10 +8,24 @@ import { Link } from 'react-router-dom';
 import image3 from '../Carousel/Img/3.jpg';
 // import image4 from '../Carousel/Img/4.jpg';
 import image13 from '../Carousel/Img/13.jpg';
+import { SiWhatsapp } from 'react-icons/si';
+
 export const Beds = () => {
 
     return (
         <div>
+            <div>
+                <a
+                    href="https://wa.me/5491130666726"
+                    className="whatsapp_float"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i className=" whatsapp-icon">
+                        <SiWhatsapp size="large" />
+                    </i>
+                </a>
+            </div>
             <NavBarComponent />
             <div className="bannerStripe">
                 <h1>Camas</h1>
@@ -23,7 +37,7 @@ export const Beds = () => {
                             <div className="productContainer" >
                                 <div className="imgContainer">
                                     <img src={image3} className="productPhoto"
-                                        alt="cama box con cajones"
+                                        alt="cama box 2 plazas"
                                     />
                                 </div>
                                 <h3>
@@ -78,7 +92,7 @@ export const Beds = () => {
                             <div className="productContainer" >
                                 <div className="imgContainer">
                                     <img src={image3} className="productPhoto"
-                                        alt="cama box con cajones"
+                                        alt="cama box queen"
                                     />
                                 </div>
                                 <h3>
@@ -132,7 +146,7 @@ export const Beds = () => {
                             <div className="productContainer" >
                                 <div className="imgContainer">
                                     <img src={image13} className="productPhoto"
-                                        alt="cama box con cajones"
+                                        alt="cama box 1 plaza"
                                     />
                                 </div>
                                 <h3>

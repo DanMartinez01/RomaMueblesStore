@@ -27,7 +27,7 @@ export const Container = () => {
             <NavBarComponent />
             <div className="bannerStripeContainer">
                 <h1 className="bannerStripeContainerText">
-                    {/* Roma Muebles */}
+
                     Atencion personalizada
                     <br />
                     Calidad Premium

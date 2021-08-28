@@ -4,13 +4,10 @@
     color:white;
     padding:10px;
     }
-
 h1{
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     margin-top: 10px;
-
-    
 }
 .aboutUsContainer{
     display: flex;
@@ -18,26 +15,33 @@ h1{
     flex-direction: row;
     align-items: center;
 }
-h3{
+.aboutUs-title{
     font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
 }
 .aboutUsImgContainer{
     text-align: center;
     margin: auto;
     padding: 5px;
 }
+.aboutUsText{
+    margin:0 auto;
+    text-align: center;
+}
 .aboutDescription{
     font-family: 'Josefin Sans', sans-serif;
     width:40%;
-    margin:auto;
+    margin: 0 auto;
     padding:1px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;  
 }
 .btn-followUs{
     font-family: 'Josefin Sans', sans-serif;
+    font-size: small;
     display: flex;
     margin: auto;
     margin-bottom: 10px;
@@ -52,12 +56,13 @@ h3{
 }
 .btn-MeLi{
     font-family: 'Josefin Sans', sans-serif;
+    font-size: small;
     text-align: center;
     display: flex;
     margin: auto;
     margin-bottom: 10px;
     margin-left: 5px;
-    padding:4px;
+    padding: 2px;
     border-radius: 8px;
     border-style: none;
     outline: none;
@@ -77,14 +82,16 @@ h3{
         width: 50%;
         height: 50%;  
     }
+    .aboutUsText{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .aboutDescription{
-        /* padding:0 1px; */
         margin: 0 auto;
         font-size:medium;
         flex-direction: column;
         align-items: center;
     }
-    
 }
 @media (max-width:600px){
     .product{
@@ -93,15 +100,17 @@ h3{
     }
     .aboutUsImage{
         margin: 10px; 
-        width: 60%;
+        width: 80%;
         height: 60%;  
     }
     .aboutDescription{
-        /* padding:0 1px; */
-        margin: 0 auto;
-        font-size:medium;
+        font-size:larger;
         flex-direction: column;
         align-items: center;
+    }
+    .aboutUsText{
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
 }

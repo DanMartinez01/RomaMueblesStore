@@ -38,7 +38,7 @@ export const Product = () => {
                                 <div className="imgContainer">
                                     <Link to='/Tables'>
                                         <img src={image6} className="productPhoto"
-                                            alt="cama box con cajones"
+                                            alt="mesa de luz flotante"
                                         />
                                     </Link>
                                 </div>
@@ -58,7 +58,7 @@ export const Product = () => {
                                 <div className="imgContainer">
                                     <Link to='/BedFrames'>
                                         <img src={image7} className="productPhoto"
-                                            alt="cama box con cajones"
+                                            alt="respaldos de melamina"
                                         />
                                     </Link>
                                 </div>
@@ -78,7 +78,7 @@ export const Product = () => {
                                 <div className="imgContainer">
                                     <Link to='/Sets'>
                                         <img src={image3} className="productPhoto"
-                                            alt="cama box con cajones"
+                                            alt="cambo: cama mesita de luz respaldo"
                                         />
                                     </Link>
                                 </div>

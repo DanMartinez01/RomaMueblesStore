@@ -8,12 +8,25 @@ import { Link } from 'react-router-dom';
 import image5 from '../Carousel/Img/5.jpg';
 import image6 from '../Carousel/Img/6.jpg';
 import image8 from '../Carousel/Img/8.jpg';
+import { SiWhatsapp } from 'react-icons/si';
 
 
 export const Tables = () => {
 
     return (
         <div>
+            <div>
+                <a
+                    href="https://wa.me/5491130666726"
+                    className="whatsapp_float"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i className=" whatsapp-icon">
+                        <SiWhatsapp size="large" />
+                    </i>
+                </a>
+            </div>
             <NavBarComponent />
             <div className="bannerStripe">
                 <h1>Mesas de luz</h1>

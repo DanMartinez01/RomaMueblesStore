@@ -7,12 +7,25 @@ import { Link } from 'react-router-dom'
 
 import image7 from '../Carousel/Img/7.jpg';
 import image9 from '../Carousel/Img/9.jpg';
+import { SiWhatsapp } from 'react-icons/si';
 
 
 export const BedFrames = () => {
 
     return (
         <div>
+            <div>
+                <a
+                    href="https://wa.me/5491130666726"
+                    className="whatsapp_float"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i className=" whatsapp-icon">
+                        <SiWhatsapp size="large" />
+                    </i>
+                </a>
+            </div>
             <NavBarComponent />
             <div className="bannerStripe">
                 <h1>Respaldos</h1>
