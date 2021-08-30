@@ -35,7 +35,6 @@ export const AboutUs = () => {
             <div>
                 <div className="aboutUsContainer">
                     <div className="aboutUsImgContainer">
-
                         <img
                             className="aboutUsImage"
                             width="100%"
@@ -44,40 +43,37 @@ export const AboutUs = () => {
                         />
                     </div>
                     <div className="aboutUsText">
-                        <p><b>Roma Muebles es una empresa familiar, dedicada a diseño y construccion de muebles artesanales</b></p>
-                        <p><b>Nos enorgullece cada uno de nuestros productos y satisfacer al cliente.</b></p>
-                        <br />
+                        <h4>
+                            <b>
+                                Somos  una empresa familiar, dedicada al diseño y construccion de muebles artesanales <br />
+                                Nos enorgullece cada uno de nuestros productos y satisfacer al cliente.
+                                <br /><br />
+                                Consulta por nuestra gran variedad de productos, <br />brindamos asesoramiento personalizado para cada una de tus compras. <br /> <br />
+                                Garantia de fabrica, usamos materiales de calidad premium
+                                <br />
+                                <br />
+                                <h2><b>Comunicate con nosotros, pedi tu presupuesto!</b></h2>
+                            </b>
+                        </h4>
                     </div>
-                    <div className="aboutDescription">
-                        <p>
-                            <button className="buttonGoCart">
-                                <a className="buttonGoCart"
-                                    href="https://wa.me/9541130666726"
-                                    target="_blank"
-                                    rel="noopener noreferrer" >
-                                    Pedi tu presupuesto
-                                </a>
-                            </button>
-                        </p>
-                        <p>
-                            <button className="btn-followUs">
-                                Seguinos en Facebook
-                            </button>
-                        </p>
-                        <p>
-                            <button className="btn-MeLi" >
-                                <a
-                                    href="https://articulo.mercadolibre.com.ar/MLA-928703577-cama-box-para-sommier-con-6-cajones-2-mesitas-de-luz-_JM?fbclid=IwAR0TGn9Darz5s6bttBamnLggvSrt-_cFY2HAP7j6mU8hR1Ir3wIdMaO_Kiw"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
-                                    <span>
-                                        <img alt="mercado libre" src={mercadolibre} width="80%" height="8%" fluid />
-                                    </span>
-                                </a>
-                            </button>
-                        </p>
-                    </div>
+                </div>
+                <div className="aboutDescription">
 
+                    <a className="btn-presupuesto"
+                        href="https://wa.me/9541130666726"
+                        target="_blank"
+                        rel="noopener noreferrer" >
+                        <p className="btn-text"> Pedi tu presupuesto sin cargo</p>
+                    </a>
+                    <a className="btn-followUs" href="https://www.facebook.com/Roma-muebles-110762931290216/"> <p className="btn-text">Seguinos en Facebook</p></a>
+                    <a className="btn-MeLi"
+                        href="https://articulo.mercadolibre.com.ar/MLA-928703577-cama-box-para-sommier-con-6-cajones-2-mesitas-de-luz-_JM?fbclid=IwAR0TGn9Darz5s6bttBamnLggvSrt-_cFY2HAP7j6mU8hR1Ir3wIdMaO_Kiw"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <p
+                            className="btn-text"><img alt="mercado libre" src={mercadolibre} width="85px" height="30 px" />
+                        </p>
+                    </a>
                 </div>
             </div>
             <Product />

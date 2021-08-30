@@ -1,37 +1,26 @@
 import React from 'react';
 import './InfoSection.css';
-// import { Nav, Navbar, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import mercadolibre from '../Carousel/Img/mercadolibre.png'
 
 
 export const InfoSection = () => {
     return (
-        // <div className="infoSection">
-        //     <div className="infoText">
-        //         <p><b>Horarios de atencion</b></p>
-        //         <p>Lun a Vier de 10 a 19</p>
-        //         <p>Sábados de 10 a 18</p>
-        //         <p>Dom:Cerrado</p>
-        //     </div>
-        //     <div className="infoText" >
-        //         <p><b>Informacion Util</b></p>
-        //         <p>Home</p>
-        //         <p>Nosotros</p>
-        //         <p>Contacto</p>
-        //     </div>
-        //     <div className="infoText" >
-        //         <p><b>Productos</b></p>
-        //         <p>Camas</p>
-        //         <p>Mesas</p>
-        //         <p>Combos</p>
-        //     </div>
-
-        // </div >
-
         <div className="main-info-section">
             <div className="container">
                 <div className="row">
-                    {/* Column1 */}
+                    <div className="col">
+                        <h4><b>Encontranos en<br /> Mercado Libre!</b></h4>
+                        <ui className="list-unstyled">
+                            <a
+                                href="https://articulo.mercadolibre.com.ar/MLA-928703577-cama-box-para-sommier-con-6-cajones-2-mesitas-de-luz-_JM?fbclid=IwAR0TGn9Darz5s6bttBamnLggvSrt-_cFY2HAP7j6mU8hR1Ir3wIdMaO_Kiw"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <p className="btn-text"><img alt="mercado libre" src={mercadolibre} width="100px" height="30 px" /></p>
+                            </a>
+
+                        </ui>
+                    </div>
                     <div className="col">
                         <h4><b>Horarios de atención</b></h4>
                         <ui className="list-unstyled">
@@ -40,7 +29,6 @@ export const InfoSection = () => {
                             <li>Dom: Cerrado</li>
                         </ui>
                     </div>
-                    {/* Column2 */}
                     <div className="col">
                         <h4><b>Productos</b></h4>
                         <ui className="list-unstyled">

@@ -28,7 +28,7 @@ export const Container = () => {
             <div className="bannerStripeContainer">
                 <h1 className="bannerStripeContainerText">
 
-                    Atencion personalizada
+                    Atención personalizada
                     <br />
                     Calidad Premium
                     <span>

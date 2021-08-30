@@ -1,5 +1,5 @@
 .bannerStripe{
-    background-color: orange;
+    background-color:#E67E22;
     height: 100px;
     color:white;
     padding:10px;
@@ -9,25 +9,29 @@ h1{
     text-align: center;
     margin-top: 10px;
 }
-.aboutUsContainer{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-}
 .aboutUs-title{
     font-weight: bold;
     font-size: xx-large;
     text-align: center;
 }
+
+.aboutUsContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
 .aboutUsImgContainer{
+    display: flex;
     text-align: center;
-    margin: auto;
-    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 .aboutUsText{
-    margin:0 auto;
+    display: flex;
     text-align: center;
+    padding: 1px;
 }
 .aboutDescription{
     font-family: 'Josefin Sans', sans-serif;
@@ -37,16 +41,20 @@ h1{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    align-items: center;  
 }
 .btn-followUs{
     font-family: 'Josefin Sans', sans-serif;
     font-size: small;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
     display: flex;
     margin: auto;
     margin-bottom: 10px;
     margin-left: 5px;
-    padding:10px;
+    padding: 2px;
     border-radius: 8px;
     border-style: none;
     outline: none;
@@ -54,11 +62,34 @@ h1{
     background-color: #4267B2;
     color:white;
 }
+.btn-presupuesto{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: small;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 2px;
+    border-radius: 8px;
+    border-style: none;
+    outline: none;
+    font-weight: bold;
+    background-color: orange;
+    color:white;
+}
 .btn-MeLi{
     font-family: 'Josefin Sans', sans-serif;
     font-size: small;
     text-align: center;
+    justify-content: center;
     display: flex;
+    width: 120px;
+    height: 40px;
     margin: auto;
     margin-bottom: 10px;
     margin-left: 5px;
@@ -71,14 +102,19 @@ h1{
     color:black; 
     text-decoration: none;
 }
-
 @media (max-width:800px){
-    .product{
-        flex-direction: column;
-        align-items: center;
+    .aboutUsContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .aboutUsImgContainer{
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
     }
     .aboutUsImage{
-        margin: 10px; 
+        margin: 0 auto;
         width: 50%;
         height: 50%;  
     }
@@ -89,17 +125,13 @@ h1{
     .aboutDescription{
         margin: 0 auto;
         font-size:medium;
-        flex-direction: column;
         align-items: center;
     }
+
 }
 @media (max-width:600px){
-    .product{
-        flex-direction: column;
-        align-items: center;
-    }
     .aboutUsImage{
-        margin: 10px; 
+        margin: 0 auto; 
         width: 80%;
         height: 60%;  
     }
@@ -107,6 +139,7 @@ h1{
         font-size:larger;
         flex-direction: column;
         align-items: center;
+        margin:0 auto;
     }
     .aboutUsText{
         margin-left: 10px;

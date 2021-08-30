@@ -9,7 +9,7 @@ export const Carrousel = () => {
         <div>
             <Carousel variant="dark" fade={true} pause={false} controls={true}  >
 
-                <Carousel.Item align="center" interval={3000} >
+                <Carousel.Item align="center" interval={2000} >
                     <Carousel.Caption>
                     </Carousel.Caption>
                     <img
@@ -20,7 +20,7 @@ export const Carrousel = () => {
                         alt="cama box con cajones"
                     />
                 </Carousel.Item>
-                <Carousel.Item align="center" interval={3000}>
+                <Carousel.Item align="center" interval={2000}>
                     <img
                         className="carrousel-Img"
                         width="70%"
@@ -32,7 +32,7 @@ export const Carrousel = () => {
 
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item align="center" interval={3000}>
+                <Carousel.Item align="center" interval={2000}>
                     <img
                         className="carrousel-Img"
                         width="70%"
