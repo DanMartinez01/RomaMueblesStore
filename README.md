@@ -1,3 +1,9 @@
+# Welcome
+RomaMuebles is a project created for a small furniture store.
+
+## Deployed site here:
+[RomaMuebles Store](https://jovial-montalcini-dfa80d.netlify.app/ )
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
