@@ -4,7 +4,7 @@ import { NavBarComponent } from '../NavBar/NavBarComponent';
 
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
-import { Link } from 'react-router-dom';
+
 
 import image3 from '../Carousel/Img/3.jpg';
 import image5 from '../Carousel/Img/5.jpg';
@@ -31,12 +31,19 @@ export const Sets = () => {
             <div className="bannerStripe">
                 <h1>Combos</h1>
             </div>
-            <h3 className="comboDescription">Cama-Mesas de luz-Respaldo<br />Precio: $
+            <h3 className="comboDescription">Cama + Mesas de luz + Respaldo<br />Precio: $
                 <br />
                 <button className="buttonGoCart">
-                    <Link className="buttonGoCart" to='/CartView'>Lo quiero</Link>
+                    <a className="buttonGoCart"
+                        href="https://wa.me/5491130666726"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Lo quiero
+                    </a>
                 </button>
+                <h5 className="comboDescription">Consulte por otros colores y modelos</h5>
             </h3>
+
             <div className="wrapper">
                 <div className="product">
                     <div className="card">

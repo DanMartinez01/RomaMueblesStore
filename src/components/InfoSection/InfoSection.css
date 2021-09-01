@@ -1,9 +1,10 @@
-
+*{
+    font-family: 'Montserrat', sans-serif;  
+}
 .categoriesTitle{
     text-align: center;
 }
 .main-info-section {
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     color:black;
     background-color: whitesmoke;

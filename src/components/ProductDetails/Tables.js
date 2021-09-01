@@ -49,7 +49,6 @@ export const Tables = () => {
                                 <p className="productName"> Distribución:<br />
 
                                 </p>
-                                {/* <p className="productName">Cama Box</p> */}
                                 <p className="productPrice"><b>Precio:</b></p>
                                 <div className="descriptionText">
                                     <p className="productPrice">
@@ -74,10 +73,14 @@ export const Tables = () => {
                                     </p>
                                 </div>
                                 <button className="buttonGoCart">
-                                    <Link className="buttonGoCart" to='/CartView'>Comprar</Link>
+                                    <a className="buttonGoCart"
+                                        href="https://wa.me/5491130666726"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Comprar
+                                    </a>
                                 </button>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -97,7 +100,6 @@ export const Tables = () => {
                                 <p className="productName"> Distribución:<br />
 
                                 </p>
-                                {/* <p className="productName">Cama Box</p> */}
                                 <p className="productPrice"><b>Precio:</b></p>
                                 <div className="descriptionText">
                                     <p className="productPrice">
@@ -122,7 +124,12 @@ export const Tables = () => {
                                     </p>
                                 </div>
                                 <button className="buttonGoCart">
-                                    <Link className="buttonGoCart" to='/CartView'>Comprar</Link>
+                                    <a className="buttonGoCart"
+                                        href="https://wa.me/5491130666726"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Comprar
+                                    </a>
                                 </button>
                             </div>
                         </div>

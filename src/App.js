@@ -15,22 +15,22 @@ function App() {
     <BrowserRouter>
       <Switch>
 
-        <Route path="/Contact" component={Contact}>
+        <Route path="/Contacto" component={Contact}>
           <Contact />
         </Route>
-        <Route path="/Sets" component={Sets}>
+        <Route path="/Combos" component={Sets}>
           <Sets />
         </Route>
-        <Route path="/Beds" component={Beds}>
+        <Route path="/Camas" component={Beds}>
           <Beds />
         </Route>
-        <Route path="/Tables" component={Tables}>
+        <Route path="/Mesasdeluz" component={Tables}>
           <Tables />
         </Route>
-        <Route path="/BedFrames" component={BedFrames}>
+        <Route path="/Respaldos" component={BedFrames}>
           <BedFrames />
         </Route>
-        <Route path="/AboutUs" component={AboutUs}>
+        <Route path="/Nosotros" component={AboutUs}>
           <AboutUs />
         </Route>
         <Route exact path="/" component={Container}>

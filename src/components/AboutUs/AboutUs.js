@@ -5,7 +5,6 @@ import { Product } from '../ProductContainer/Product/Product';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
 import { SiWhatsapp } from 'react-icons/si';
-// import image4 from '../Carousel/Img/4.jpg';
 import image11 from '../Carousel/Img/11.jpg';
 import mercadolibre from '../Carousel/Img/mercadolibre.png';
 
@@ -44,16 +43,16 @@ export const AboutUs = () => {
                     </div>
                     <div className="aboutUsText">
                         <h4>
-                            <b>
-                                Somos  una empresa familiar, dedicada al diseño y construccion de muebles artesanales <br />
-                                Nos enorgullece cada uno de nuestros productos y satisfacer al cliente.
-                                <br /><br />
-                                Consulta por nuestra gran variedad de productos, <br />brindamos asesoramiento personalizado para cada una de tus compras. <br /> <br />
-                                Garantia de fabrica, usamos materiales de calidad premium
-                                <br />
-                                <br />
-                                <h2><b>Comunicate con nosotros, pedi tu presupuesto!</b></h2>
-                            </b>
+
+                            Somos  una empresa familiar, dedicada al diseño y construccion de muebles artesanales <br />
+                            Nos enorgullece cada uno de nuestros productos y satisfacer al cliente.
+                            <br /><br />
+                            Consulta por nuestra gran variedad de productos, <br />brindamos asesoramiento personalizado para cada una de tus compras. <br /> <br />
+                            Garantia de fabrica, usamos materiales de calidad premium
+                            <br />
+                            <br />
+                            <h2><b>Comunicate con nosotros, pedi tu presupuesto!</b></h2>
+
                         </h4>
                     </div>
                 </div>

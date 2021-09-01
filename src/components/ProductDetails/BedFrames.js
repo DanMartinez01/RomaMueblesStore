@@ -3,7 +3,7 @@ import './BedFrames.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
-import { Link } from 'react-router-dom'
+
 
 import image7 from '../Carousel/Img/7.jpg';
 import image9 from '../Carousel/Img/9.jpg';
@@ -48,24 +48,10 @@ export const BedFrames = () => {
                                 <p className="productName"> Distribución:<br />
                                     4 cajones laterales + 2 cajones frontales + Baulera Interna
                                 </p>
-                                {/* <p className="productName">Cama Box</p> */}
                                 <p className="productPrice"><b>Precio:</b></p>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
-                                        <b>
-                                            1 Plaza
-                                            <br />
-                                            1 1/2 Plaza
-                                            <br />
-                                            2 plazas (140cm x 190cm).
-                                            <br />
-                                            Queen (160cm x1.90/200cm).
-                                            <br />
-                                            2 1/2 (180cm x 200cm).
-                                            <br />
-                                            King (200cm x 200cm)
-                                        </b>
                                     </p>
                                 </div>
                                 <div className="descriptionText">
@@ -83,7 +69,12 @@ export const BedFrames = () => {
                                     </p>
                                 </div>
                                 <button className="buttonGoCart">
-                                    <Link className="buttonGoCart" to='/CartView'>Comprar</Link>
+                                    <a className="buttonGoCart"
+                                        href="https://wa.me/5491130666726"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Comprar
+                                    </a>
                                 </button>
                             </div>
 
@@ -112,19 +103,6 @@ export const BedFrames = () => {
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
-                                        <b>
-                                            1 Plaza
-                                            <br />
-                                            1 1/2 Plaza
-                                            <br />
-                                            2 plazas (140cm x 190cm).
-                                            <br />
-                                            Queen (160cm x1.90/200cm).
-                                            <br />
-                                            2 1/2 (180cm x 200cm).
-                                            <br />
-                                            King (200cm x 200cm)
-                                        </b>
                                     </p>
                                 </div>
                                 <div className="descriptionText">
@@ -142,7 +120,12 @@ export const BedFrames = () => {
                                     </p>
                                 </div>
                                 <button className="buttonGoCart">
-                                    <Link className="buttonGoCart" to='/CartView'>Comprar</Link>
+                                    <a className="buttonGoCart"
+                                        href="https://wa.me/5491130666726"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Comprar
+                                    </a>
                                 </button>
                             </div>
                         </div>

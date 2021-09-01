@@ -1,5 +1,7 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 h3{
-    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     margin-top: 10px;
 }
@@ -9,7 +11,6 @@ h3{
     color:white;
     padding:10px;
     text-align: left; 
-    font-family: 'Josefin Sans' sans-serif;
     }
 .whatsapp_float {
     position: fixed;

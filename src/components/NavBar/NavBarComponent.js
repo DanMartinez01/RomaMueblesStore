@@ -16,15 +16,15 @@ export const NavBarComponent = (props) => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link as={Link} to={"/Beds"}>Camas</Nav.Link>
-                        <Nav.Link as={Link} to={"/Tables"}>Mesas de luz</Nav.Link>
-                        <Nav.Link as={Link} to={"/BedFrames"}>Respaldos</Nav.Link>
-                        <Nav.Link as={Link} to={"/Sets"}>Combos</Nav.Link>
+                        <Nav.Link as={Link} to={"/Camas"}>Camas</Nav.Link>
+                        <Nav.Link as={Link} to={"/Mesasdeluz"}>Mesas de luz</Nav.Link>
+                        <Nav.Link as={Link} to={"/Respaldos"}>Respaldos</Nav.Link>
+                        <Nav.Link as={Link} to={"/Combos"}>Combos</Nav.Link>
                     </Nav>
                     <Nav>
 
-                        <Nav.Link as={Link} to={"/AboutUs"}>Nosotros</Nav.Link>
-                        <Nav.Link as={Link} to={"/Contact"}>Contacto</Nav.Link>
+                        <Nav.Link as={Link} to={"/Nosotros"}>Nosotros</Nav.Link>
+                        <Nav.Link as={Link} to={"/Contacto"}>Contacto</Nav.Link>
                         <Nav.Link href="https://www.facebook.com/Roma-muebles-110762931290216/">
                             <ImFacebook color="white" />
                         </Nav.Link>
@@ -32,7 +32,7 @@ export const NavBarComponent = (props) => {
                             href="https://articulo.mercadolibre.com.ar/MLA-928703577-cama-box-para-sommier-con-6-cajones-2-mesitas-de-luz-_JM?fbclid=IwAR0TGn9Darz5s6bttBamnLggvSrt-_cFY2HAP7j6mU8hR1Ir3wIdMaO_Kiw"
                             target="_blank"
                             rel="noopener noreferrer">
-                            <img alt="mercado libre" src={mercadolibre} width="70px" height="20 px" />
+                            <img className="meLi-Img-Nav" alt="mercado libre" src={mercadolibre} width="70px" height="20 px" />
                         </Nav.Link>
 
                     </Nav>

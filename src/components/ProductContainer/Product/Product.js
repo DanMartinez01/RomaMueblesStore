@@ -16,7 +16,7 @@ export const Product = () => {
                         <div className="productBox">
                             <div className="productContainer" >
                                 <div className="imgContainer">
-                                    <Link to='/Beds'>
+                                    <Link to='/Camas'>
                                         <img src={image3} className="productPhoto"
                                             alt="cama box con cajones"
                                         />
@@ -36,7 +36,7 @@ export const Product = () => {
                         <div className="productBox">
                             <div className="productContainer" >
                                 <div className="imgContainer">
-                                    <Link to='/Tables'>
+                                    <Link to='/Mesasdeluz'>
                                         <img src={image6} className="productPhoto"
                                             alt="mesa de luz flotante"
                                         />
@@ -56,7 +56,7 @@ export const Product = () => {
                         <div className="productBox">
                             <div className="productContainer" >
                                 <div className="imgContainer">
-                                    <Link to='/BedFrames'>
+                                    <Link to='/Respaldos'>
                                         <img src={image7} className="productPhoto"
                                             alt="respaldos de melamina"
                                         />
@@ -76,7 +76,7 @@ export const Product = () => {
                         <div className="productBox">
                             <div className="productContainer" >
                                 <div className="imgContainer">
-                                    <Link to='/Sets'>
+                                    <Link to='/Combos'>
                                         <img src={image3} className="productPhoto"
                                             alt="cambo: cama mesita de luz respaldo"
                                         />

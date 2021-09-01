@@ -47,7 +47,6 @@ export const Beds = () => {
                                 <p className="productName"> Distribución:<br />
                                     4 cajones laterales + 2 cajones frontales + Baulera Interna
                                 </p>
-                                {/* <p className="productName">Cama Box</p> */}
                                 <h4 className="productPrice"><b>Efectivo: $ 25.000 <br />Otros medios de pago: $28.000</b></h4>
                                 <div className="descriptionText">
                                     <p className="productPrice">
@@ -78,7 +77,12 @@ export const Beds = () => {
                                     </p>
                                 </div>
                                 <button className="buttonGoCart">
-                                    <Link className="buttonGoCart" to='/CartView'>Comprar</Link>
+                                    <a className="buttonGoCart"
+                                        href="https://wa.me/5491130666726"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Comprar
+                                    </a>
                                 </button>
                             </div>
 
@@ -103,7 +107,6 @@ export const Beds = () => {
                                 <p className="productName"> Distribución:<br />
                                     4 cajones laterales + 2 cajones frontales + Baulera Interna
                                 </p>
-                                {/* <p className="productName">Cama Box</p> */}
                                 <h4 className="productPrice"><b>Efectivo: $ 25.000 <br />Otros medios de pago: $28.000</b></h4>
                                 <div className="descriptionText">
                                     <p className="productPrice">
@@ -134,7 +137,12 @@ export const Beds = () => {
                                     </p>
                                 </div>
                                 <button className="buttonGoCart">
-                                    <Link className="buttonGoCart" to='/CartView'>Comprar</Link>
+                                    <a className="buttonGoCart"
+                                        href="https://wa.me/5491130666726"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Comprar
+                                    </a>
                                 </button>
                             </div>
                         </div>

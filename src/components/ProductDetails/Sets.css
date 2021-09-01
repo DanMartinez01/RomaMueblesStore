@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Montserrat', sans-serif; 
+}
 .product{
     display: flex;
     width: calc (100% - 20px);
@@ -33,7 +35,6 @@
     height:200px;
 }
 .productName, .productPrice{
-    font-family: 'Josefin Sans', sans-serif;
     font-size:medium;
     font-weight: bolder;
     text-align: left;
@@ -41,7 +42,6 @@
     padding: 7px;
 }
 .buttonGoCart{
-    font-family: 'Josefin Sans', sans-serif;
     display: flex;
     margin: auto;
     margin-bottom: 10px;
@@ -54,7 +54,6 @@
     color:white;
 }
 a.buttonGoCart{
-    font-family: 'Josefin Sans', sans-serif;;
     text-decoration: none;
     display: flex;
     margin: 0 auto;
@@ -69,8 +68,6 @@ a.buttonGoCart{
 
 .descriptionText{
     margin:0 auto;
-    font-family: 'Josefin Sans', sans-serif;
-
 } 
 .colorText{
     padding:7px;

@@ -1,29 +1,6 @@
-/* 
-.footer{
-    width: 100%;
-    background-color: black;
-    text-align: center;
-    padding:25px;
+*{
+    font-family: 'Montserrat', sans-serif;  
 }
-.footerText{
-    font-family: 'Josefin Sans', sans-serif;
-    color:white;
-    text-align: left;
-    margin:10px;
-}
-.iconSpan{
-    text-align: center;
-}
-.paymentMethodImg{
-    display: flex;
-   justify-content: flex-end;
-}
-@media (max-width: 400px){
-    .footer{
-      width: 110%;
-    }
-
-} */
 .main-footer {
     color: white;
     background-color: black;

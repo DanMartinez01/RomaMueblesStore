@@ -1,3 +1,6 @@
+*{
+    font-family: 'Montserrat', sans-serif;  
+}
 .bannerStripe{
     background-color:#E67E22;
     height: 100px;
@@ -5,7 +8,6 @@
     padding:10px;
     }
 h1{
-    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     margin-top: 10px;
 }
@@ -30,11 +32,11 @@ h1{
 }
 .aboutUsText{
     display: flex;
-    text-align: center;
+    text-align: left;
+    margin: 10px;
     padding: 1px;
 }
 .aboutDescription{
-    font-family: 'Josefin Sans', sans-serif;
     width:40%;
     margin: 0 auto;
     padding:1px;
@@ -43,7 +45,6 @@ h1{
     flex-direction: row;
 }
 .btn-followUs{
-    font-family: 'Josefin Sans', sans-serif;
     font-size: small;
     text-decoration: none;
     text-align: center;
@@ -63,7 +64,6 @@ h1{
     color:white;
 }
 .btn-presupuesto{
-    font-family: 'Josefin Sans', sans-serif;
     font-size: small;
     text-decoration: none;
     text-align: center;
@@ -83,7 +83,6 @@ h1{
     color:white;
 }
 .btn-MeLi{
-    font-family: 'Josefin Sans', sans-serif;
     font-size: small;
     text-align: center;
     justify-content: center;
@@ -144,6 +143,7 @@ h1{
     .aboutUsText{
         margin-left: 10px;
         margin-right: 10px;
+        text-align: center;
     }
     
 }
