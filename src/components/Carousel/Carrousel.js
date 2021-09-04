@@ -1,9 +1,10 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
-import image3 from './Img/3.jpg';
-import image4 from './Img/4.jpg';
 
+import image10 from './Img/10.jpg';
+import image11 from './Img/11.jpg';
+import image12 from './Img/12.jpg';
 export const Carrousel = () => {
     return (
         <div>
@@ -17,7 +18,7 @@ export const Carrousel = () => {
                         width="70%"
                         height="30%"
                         fluid
-                        src={image3}
+                        src={image10}
                         alt="cama box con cajones"
                     />
                 </Carousel.Item>
@@ -27,7 +28,7 @@ export const Carrousel = () => {
                         width="70%"
                         height="30%"
                         fluid
-                        src={image4}
+                        src={image11}
                         alt="cama box con cajones"
                     />
                     <Carousel.Caption>
@@ -40,7 +41,7 @@ export const Carrousel = () => {
                         width="70%"
                         height="30%"
                         fluid
-                        src={image3}
+                        src={image12}
                         alt="cama box con cajones"
                     />
                     <Carousel.Caption>
