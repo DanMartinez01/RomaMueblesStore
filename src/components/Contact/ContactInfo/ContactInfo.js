@@ -15,13 +15,12 @@ export const ContactInfo = () => {
                 <div class="contactCard">
                     <i class="card-icon"><MdEmail /> </i>
                     <br />
-                    <FaFacebookSquare size="20px" align="center" />
+
                     <a className="footerLinks" target="_blank" rel="noreferrer"
                         href="https://www.facebook.com/Roma-muebles-110762931290216/">
-                        <h6> Roma Muebles</h6>
+                        <h6><FaFacebookSquare size="18px" align="center" /> Roma Muebles</h6>
                     </a>
-                    <MdEmail size="20px" />
-                    <h6> nestoraquino1984@gmail.com</h6>
+                    <h6>nestoraquino1984@gmail.com</h6>
                 </div>
                 <div class="contactCard">
                     <i class="card-icon"><MdLocalPhone /></i>

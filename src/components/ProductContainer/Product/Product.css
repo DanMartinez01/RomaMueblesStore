@@ -82,7 +82,7 @@ a.buttonGoCart{
 } 
 
 .colorStripe{
-	background-color: orange;
+	background-color: #E67E22;
 	text-align: center;
 	font-weight: bold;
 	font-size: larger;
@@ -91,7 +91,7 @@ a.buttonGoCart{
 }
 
 .categoriesTitle{
-	background-color: orange;
+	background-color: #E67E22;
 	padding: 30px;
 	
 	font-weight: bolder;

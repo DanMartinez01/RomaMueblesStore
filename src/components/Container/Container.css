@@ -50,10 +50,13 @@
     margin-bottom: 0px;
 }
 .bannerStripeContainer{
-        background-color:#E67E22;;
-        height: 140px;
+        background-color:#E67E22;
+        height: 130px;
         color:white;
         padding:10px;
+}
+.waves-svg{
+    height: 90px;
 }
 @media (max-width:1200px){
     .bannerStripeContainer{

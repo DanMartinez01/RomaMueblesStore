@@ -12,9 +12,8 @@ export const InfoSection = () => {
                     <div className="col">
                         <h4><b>Horarios de atención</b></h4>
                         <ui className="list-unstyled">
-                            <li>Lun a Vier de 10 a 19</li>
+                            <li>Lun a Vier de 8 a 19</li>
                             <li>Sábados de 10 a 18</li>
-                            <li>Dom: Cerrado</li>
                         </ui>
                     </div>
                     <div className="col">

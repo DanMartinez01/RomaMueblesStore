@@ -35,8 +35,9 @@ export const Container = () => {
                         <img alt="calidad" className="qualityIcon-Img" fluid src={quality} width="55px" height="50px" />
                     </span>
                 </h1>
+
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E67E22" fill-opacity="1" d="M0,96L60,106.7C120,117,240,139,360,128C480,117,600,75,720,80C840,85,960,139,1080,154.7C1200,171,1320,149,1380,138.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+            {/* <svg height="50%" width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,200 0,200 C 80.64114832535887,218.8133971291866 161.28229665071774,237.6267942583732 264,245 C 366.71770334928226,252.3732057416268 491.51196172248797,248.30622009569376 593,226 C 694.488038277512,203.69377990430624 772.6698564593302,163.14832535885168 867,164 C 961.3301435406698,164.85167464114832 1071.8086124401914,207.10047846889952 1170,220 C 1268.1913875598086,232.89952153110048 1354.0956937799042,216.44976076555025 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#e67e22ff" class="transition-all duration-300 ease-in-out delay-150" transform="rotate(-180 720 200)"></path></svg> */}
             <Carrousel />
             <Product />
             <InfoSection />

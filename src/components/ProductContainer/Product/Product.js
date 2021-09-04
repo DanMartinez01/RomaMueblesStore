@@ -24,7 +24,7 @@ export const Product = () => {
                                 </div>
                                 <div className="colorStripe">
                                     <br />
-                                    <Link className="infoSectionLink" to='/Beds'><p> CAMAS</p></Link>
+                                    <Link className="infoSectionLink" to='/Camas'><p> CAMAS</p></Link>
                                     <br />
                                 </div>
                             </div>
@@ -44,7 +44,7 @@ export const Product = () => {
                                 </div>
                                 <div className="colorStripe">
                                     <br />
-                                    <Link className="infoSectionLink" to='/Beds'><p>MESAS DE LUZ</p></Link>
+                                    <Link className="infoSectionLink" to='/Mesasdeluz'><p>MESAS DE LUZ</p></Link>
                                     <br />
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ export const Product = () => {
                                 </div>
                                 <div className="colorStripe">
                                     <br />
-                                    <Link className="infoSectionLink" to='/BedFrames'><p>RESPALDOS</p></Link>
+                                    <Link className="infoSectionLink" to='/Respaldos'><p>RESPALDOS</p></Link>
                                     <br />
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ export const Product = () => {
                                 </div>
                                 <div className="colorStripe">
                                     <br />
-                                    <Link className="infoSectionLink" to='/Sets'><p>PEDI EL COMBO!</p></Link>
+                                    <Link className="infoSectionLink" to='/Combos'><p>PEDI EL COMBO!</p></Link>
                                     <br />
                                 </div>
                             </div>

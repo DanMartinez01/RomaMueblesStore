@@ -15,6 +15,7 @@ export const Carrousel = () => {
                     <img
                         className="carrousel-Img"
                         width="70%"
+                        height="30%"
                         fluid
                         src={image3}
                         alt="cama box con cajones"
@@ -24,6 +25,7 @@ export const Carrousel = () => {
                     <img
                         className="carrousel-Img"
                         width="70%"
+                        height="30%"
                         fluid
                         src={image4}
                         alt="cama box con cajones"
@@ -36,6 +38,7 @@ export const Carrousel = () => {
                     <img
                         className="carrousel-Img"
                         width="70%"
+                        height="30%"
                         fluid
                         src={image3}
                         alt="cama box con cajones"

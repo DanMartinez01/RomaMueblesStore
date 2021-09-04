@@ -22,3 +22,6 @@
 .infoSectionLink:hover{
     color: rgb(80, 80, 80);
 }
+.col{
+    margin-bottom: 10px;
+}
