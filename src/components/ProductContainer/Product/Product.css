@@ -48,37 +48,10 @@
     margin:0 4px;
     padding: 7px;
 }
-.buttonGoCart{
-   
-    display: flex;
-    margin: auto;
-    margin-bottom: 10px;
-    padding:10px;
-    border-radius: 8px;
-    border-style: none;
-    outline: none;
-    font-weight: bold;
-    background-color: #ea526f;
-    color:white;
-}
-a.buttonGoCart{
-  
-    text-decoration: none;
-    display: flex;
-    margin: 0 auto;
-    padding:1px;
-    border-radius: 8px;
-    border-style: none;
-    outline: none;
-    font-weight: bold;
-    background-color: #ea526f;
-    color:white;   
-}
+
 
 .descriptionText{
     margin:0 auto;
-   
-
 } 
 
 .colorStripe{
@@ -93,6 +66,9 @@ a.buttonGoCart{
 .categoriesTitle{
 	background-color: #E67E22;
 	padding: 30px;
-	
+	color:white;
 	font-weight: bolder;
+}
+.categoriesText{
+    color: white;
 }

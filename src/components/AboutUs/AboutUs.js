@@ -52,20 +52,37 @@ export const AboutUs = () => {
                             <br />
                             brindamos asesoramiento personalizado para cada una de tus compras.
                             <br /> <br />
-                            <h2>
+                            <h2 className="presupuestoLink">
                                 <b>
                                     <a className="presupuestoLink"
                                         href="https://wa.me/9541130666726"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                    >Comunicate con nosotros, pedí tu  presupuesto!
+                                    >Comunicate con nosotros<br /> pedí tu  presupuesto!
                                     </a>
                                 </b>
                             </h2>
+                            <div className="aboutDescription">
+                                <a className="btn-presupuesto"
+                                    href="https://wa.me/9541130666726"
+                                    target="_blank"
+                                    rel="noopener noreferrer" >
+                                    <p className="btn-text"> Pedi tu presupuesto</p>
+                                </a>
+                                <a className="btn-followUs" href="https://www.facebook.com/Roma-muebles-110762931290216/"> <p className="btn-text">Visitanos en Facebook</p></a>
+                                <a className="btn-MeLi"
+                                    href="https://articulo.mercadolibre.com.ar/MLA-928703577-cama-box-para-sommier-con-6-cajones-2-mesitas-de-luz-_JM?fbclid=IwAR0TGn9Darz5s6bttBamnLggvSrt-_cFY2HAP7j6mU8hR1Ir3wIdMaO_Kiw"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <p
+                                        className="btn-text"><img alt="mercado libre" src={mercadolibre} width="85px" height="30 px" />
+                                    </p>
+                                </a>
+                            </div>
                         </h4>
                     </div>
                 </div>
-                <div className="aboutDescription">
+                {/* <div className="aboutDescription">
                     <a className="btn-presupuesto"
                         href="https://wa.me/9541130666726"
                         target="_blank"
@@ -81,7 +98,7 @@ export const AboutUs = () => {
                             className="btn-text"><img alt="mercado libre" src={mercadolibre} width="85px" height="30 px" />
                         </p>
                     </a>
-                </div>
+                </div> */}
             </div>
             <Product />
             <InfoSection />
