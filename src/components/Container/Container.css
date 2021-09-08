@@ -50,17 +50,31 @@
     margin-bottom: 0px;
 }
 .bannerStripeContainer{
-        background-color:#E67E22;
-        height: 130px;
-        color:white;
+        background-color:white;
+        height: 180px;
+        color:black;
         padding:10px;
+        animation: bannerStripeContainer 6s infinite;
 }
-.waves-svg{
-    height: 90px;
+.qualityIcon-Img{
+    width: 50px;
+    height: 50px;
 }
+/* @keyFrames bannerStripeContainer{
+    0%, 30%{
+        background-color:rgba(218, 203, 203, 0.89);
+    }
+    35%, 65%{
+        background-color: orange;
+    }
+   70%, 100%{
+        background-color:rgb(241, 226, 226);
+   }
+   
+} */
 @media (max-width:1200px){
     .bannerStripeContainer{
-        height: 130px;
+        height: 170px;
     }
     .qualityIcon-Img{
         width: 50px;
@@ -68,13 +82,25 @@
     }
 
 }
+@media (max-width:800px){
+    .bannerStripeContainer{
+        height: 150px;
+    }
+    .bannerStripeContainerText{
+        font-size: xx-large;
+    }
+    .qualityIcon-Img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
 @media (max-width:400px){
     .bannerStripeContainer{
         height: 100px;
     }
     .bannerStripeContainerText{
-        font-size: medium;
-
+        font-size: large;
     }
     .qualityIcon-Img{
         width: 30px;
