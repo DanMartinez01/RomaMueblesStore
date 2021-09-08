@@ -2,9 +2,9 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
 
-import image10 from './Img/10.jpg';
-import image11 from './Img/11.jpg';
-import image12 from './Img/12.jpg';
+// import image10 from './Img/10.jpg';
+// import image11 from './Img/11.jpg';
+// import image12 from './Img/12.jpg';
 import image14 from './Img/14.jpg';
 import image15 from './Img/15.jpg';
 export const Carrousel = () => {

@@ -6,7 +6,7 @@ import { InfoSection } from '../InfoSection/InfoSection'
 import { Footer } from '../Footer/Footer'
 import { SiWhatsapp } from "react-icons/si";
 import { Product } from '../ProductContainer/Product/Product';
-import quality from '../Carousel/Img/qualityIcon.png';
+// import quality from '../Carousel/Img/qualityIcon.png';
 
 export const Container = () => {
 
