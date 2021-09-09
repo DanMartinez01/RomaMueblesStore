@@ -9,13 +9,13 @@ export const InfoSection = () => {
         <div className="main-info-section">
             <div className="container">
                 <div className="row">
-                    <div className="col">
+                    {/* <div className="col">
                         <h4><b>Horarios de atención</b></h4>
                         <ui className="list-unstyled">
                             <li>Lun a Vier de 8 a 19</li>
                             <li>Sábados de 10 a 18</li>
                         </ui>
-                    </div>
+                    </div> */}
                     <div className="col">
                         <h4><b>Productos</b></h4>
                         <ui className="list-unstyled">
@@ -29,7 +29,7 @@ export const InfoSection = () => {
                         </ui>
                     </div>
                     <div className="col">
-                        <h4><b>Links Utiles</b></h4>
+                        <h4><b>Links Útiles</b></h4>
                         <ui className="list-unstyled">
                             <Link className="infoSectionLink" to='/'>Home</Link>
                             <br />

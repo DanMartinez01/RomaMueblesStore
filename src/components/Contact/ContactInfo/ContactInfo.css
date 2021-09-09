@@ -14,7 +14,7 @@
   } 
 
   .contactContainer{
-    background: #f1f1f1;
+    background: #ffffff;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
   }
   

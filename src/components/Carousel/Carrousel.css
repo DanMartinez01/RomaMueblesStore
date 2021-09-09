@@ -1,9 +1,7 @@
-.carousel-caption{
-    color:black;
-}
 
-@media (min-width:800px){
-    .img{
+@media (max-width:400px){
+    .carrousel-Img{
         width: 100%;
+        height: 200px;
     }
 }

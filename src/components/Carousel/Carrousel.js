@@ -10,16 +10,16 @@ import image15 from './Img/15.jpg';
 export const Carrousel = () => {
     return (
         <div>
-            <Carousel variant="dark" fade={true} pause={false} controls={true}  >
+            <Carousel variant="dark" fade={true} pause={false} controls={false}  >
 
                 <Carousel.Item align="center" interval={2000} >
                     <Carousel.Caption>
                     </Carousel.Caption>
                     <img
                         className="carrousel-Img"
-                        width="70%"
-                        height="30%"
-                        fluid
+                        width="100%"
+                        // height="40%"
+                        // fluid
                         src={image14}
                         alt="cama box con cajones"
                     />
@@ -27,9 +27,9 @@ export const Carrousel = () => {
                 <Carousel.Item align="center" interval={2000}>
                     <img
                         className="carrousel-Img"
-                        width="70%"
-                        height="30%"
-                        fluid
+                        width="100%"
+                        // height="40%"
+                        // fluid
                         src={image15}
                         alt="cama box con cajones"
                     />
@@ -40,9 +40,9 @@ export const Carrousel = () => {
                 <Carousel.Item align="center" interval={2000}>
                     <img
                         className="carrousel-Img"
-                        width="70%"
-                        height="30%"
-                        fluid
+                        width="100%"
+                        // height="40%"
+                        // fluid
                         src={image14}
                         alt="cama box con cajones"
                     />
