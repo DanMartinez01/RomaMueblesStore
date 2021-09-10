@@ -11,6 +11,7 @@ import visa from '../Carousel/Img/visa.png';
 import mastercard from '../Carousel/Img/mastercard.png';
 import mercadopago from '../Carousel/Img/mercadopago.png';
 import pagofacil from '../Carousel/Img/pagofacil.png';
+import { FaInstagram } from 'react-icons/fa';
 
 export const Footer = () => {
     return (
@@ -26,6 +27,11 @@ export const Footer = () => {
                             <a className="footerLinks" target="_blank" rel="noreferrer"
                                 href="https://www.facebook.com/Roma-muebles-110762931290216/">
                                 <ImFacebook color="white" /> Facebook
+                            </a>
+                            <br />
+                            <a className="footerLinks" target="_blank" rel="noreferrer"
+                                href="https://www.instagram.com/romamue21/">
+                                <FaInstagram color="white" /> Instagram
                             </a>
                             <br />
                             <li>

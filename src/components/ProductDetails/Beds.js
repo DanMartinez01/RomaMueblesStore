@@ -31,7 +31,6 @@ export const Beds = () => {
             <div className="bannerStripe">
                 <h1>Camas</h1>
             </div>
-            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E67E22" fill-opacity="1" d="M0,96L60,106.7C120,117,240,139,360,128C480,117,600,75,720,80C840,85,960,139,1080,154.7C1200,171,1320,149,1380,138.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> */}
             <div className="wrapper">
                 <div className="product">
                     <div className="card">
@@ -43,24 +42,20 @@ export const Beds = () => {
                                     />
                                 </div>
                                 <h3>
-                                    <b>Cama Box con 6 cajones en total.<br />
+                                    <b>Cama Box con 6 cajones en total<br />
                                     </b>
                                 </h3>
-                                <p className="productName"> Distribución:<br />
+                                <p className="productName">
+                                    Art #01 <br />
+                                    Distribución:<br />
                                     4 cajones laterales + 2 cajones frontales + Baulera Interna
                                 </p>
-                                <h4 className="productPrice"><b>Efectivo: $ 25.000 <br />Otros medios de pago: $28.000</b></h4>
+                                <h4 className="productPrice"><b>Precio efectivo: $ 25.000</b></h4>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
                                         <b>
-                                            1 Plaza
-                                            <br />
-                                            2 plazas (140cm x 190cm).
-                                            <br />
-                                            Queen (160cm x1.90/200cm).
-                                            <br />
-                                            Consulte por otras medidas
+                                            2 plazas: 140cm x 190cm
                                         </b>
                                     </p>
                                 </div>
@@ -102,25 +97,21 @@ export const Beds = () => {
                                     />
                                 </div>
                                 <h3>
-                                    <b>Cama Box con 6 cajones en total.<br />
+                                    <b>Cama Box con 6 cajones en total<br />
 
                                     </b>
                                 </h3>
-                                <p className="productName"> Distribución:<br />
+                                <p className="productName">
+                                    Art #02<br />
+                                    Distribución:<br />
                                     4 cajones laterales + 2 cajones frontales + Baulera Interna
                                 </p>
-                                <h4 className="productPrice"><b>Efectivo: $ 25.000 <br />Otros medios de pago: $28.000</b></h4>
+                                <h4 className="productPrice"><b>Precio efectivo: $ 30.000</b></h4>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
                                         <b>
-                                            1 Plaza
-                                            <br />
-                                            2 plazas (140cm x 190cm).
-                                            <br />
-                                            Queen (160cm x1.90/200cm).
-                                            <br />
-                                            Consulte por otras medidas
+                                            Queen: 160cm x1.90/200cm
                                         </b>
                                     </p>
                                 </div>
@@ -160,25 +151,20 @@ export const Beds = () => {
                                     />
                                 </div>
                                 <h3>
-                                    <b>Cama Box con 6 cajones en total.<br />
+                                    <b>Cama Box con 6 cajones en total<br />
                                     </b>
                                 </h3>
-                                <p className="productName"> Distribución:<br />
-                                    4 cajones laterales + 2 cajones frontales + Baulera Interna
+                                <p className="productName">
+                                    Art #03 <br />
+                                    Distribución:<br />
+                                    4 cajones laterales + 2 cajones frontales
                                 </p>
-                                {/* <p className="productName">Cama Box</p> */}
-                                <h4 className="productPrice"><b>Efectivo: $ 25.000 <br />Otros medios de pago: $28.000</b></h4>
+                                <h4 className="productPrice"><b>Precio efectivo: $ 20.000</b></h4>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
                                         <b>
-                                            1 Plaza
-                                            <br />
-                                            2 plazas (140cm x 190cm).
-                                            <br />
-                                            Queen (160cm x1.90/200cm).
-                                            <br />
-                                            Consulte por otras medidas
+                                            1 1/2 plaza
                                         </b>
                                     </p>
                                 </div>

@@ -42,34 +42,22 @@ export const BedFrames = () => {
                                 />
                             </div>
                             <div className="productContainer" >
-                                <h3>
-                                    <b>Cama Box con 6 cajones en total.<br />
-
-                                    </b>
-                                </h3>
-                                <p className="productName"> Distribución:<br />
-                                    4 cajones laterales + 2 cajones frontales + Baulera Interna
-                                </p>
-                                <p className="productPrice"><b>Precio:</b></p>
+                                <h3><b>Respaldo completo con mesita de luz</b></h3>
+                                <h3 className="productPrice">Art # </h3>
+                                <h3 className="productPrice">Precio: $</h3>
+                                <h3 className="productPrice">Melamina MDF </h3>
                                 <div className="descriptionText">
-                                    <p className="productPrice">
-                                        <h4><b>Medidas:</b></h4>
-                                    </p>
-                                </div>
-                                <div className="descriptionText">
+                                    <h3 className="productPrice"><b>Medidas: 1.80 x 1.13 cm</b></h3>
                                     <p className="colorText">
-                                        <h4><b>Colores:</b></h4>
+                                        <b>Colores:</b><br />
                                         <b>
                                             <span class="dot-white"></span>Blanco
                                             <br />
-                                            <span class="dot-black"></span> Negro
-                                            <br />
-                                            <span class="dot-lg-brown"></span>Cedro
-                                            <br />
-                                            <span class="dot-dk-brown"></span>Wengue
+                                            Consulte por otros colores y medidas
                                         </b>
                                     </p>
                                 </div>
+
                                 <button className="buttonGoCart">
                                     <a className="buttonGoCart"
                                         href="https://wa.me/5491130666726"
@@ -91,32 +79,18 @@ export const BedFrames = () => {
                                 />
                             </div>
                             <div className="productContainer" >
-                                <h3>
-                                    <b>Cama Box con 6 cajones en total.<br />
-
-                                    </b>
-                                </h3>
-                                <p className="productName"> Distribución:<br />
-                                    4 cajones laterales + 2 cajones frontales + Baulera Interna
-                                </p>
-                                {/* <p className="productName">Cama Box</p> */}
-                                <p className="productPrice"><b>Precio:</b></p>
+                                <h3><b>Respaldo de melamina</b></h3>
+                                <h3 className="productPrice">Art # </h3>
+                                <h3 className="productPrice">Precio: $6000</h3>
+                                <h3 className="productPrice">Melamina MDF </h3>
                                 <div className="descriptionText">
-                                    <p className="productPrice">
-                                        <h4><b>Medidas:</b></h4>
-                                    </p>
-                                </div>
-                                <div className="descriptionText">
+                                    <h3 className="productPrice"><b>Medidas: 1.80 x 1.13 cm</b></h3>
                                     <p className="colorText">
-                                        <h4><b>Colores:</b></h4>
+                                        <b>Colores:</b><br />
                                         <b>
                                             <span class="dot-white"></span>Blanco
                                             <br />
-                                            <span class="dot-black"></span> Negro
-                                            <br />
-                                            <span class="dot-lg-brown"></span>Cedro
-                                            <br />
-                                            <span class="dot-dk-brown"></span>Wengue
+                                            Consulte por otros colores y medidas
                                         </b>
                                     </p>
                                 </div>

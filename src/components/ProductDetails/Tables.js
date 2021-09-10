@@ -32,7 +32,6 @@ export const Tables = () => {
             <div className="bannerStripe">
                 <h1>Mesas de luz</h1>
             </div>
-            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E67E22" fill-opacity="1" d="M0,96L60,106.7C120,117,240,139,360,128C480,117,600,75,720,80C840,85,960,139,1080,154.7C1200,171,1320,149,1380,138.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> */}
             <div className="wrapper">
                 <div className="product">
                     <div className="card">
@@ -45,19 +44,15 @@ export const Tables = () => {
                             <div className="productContainer" >
                                 <h3>
                                     <b>Mesa de luz flotante<br />
-
                                     </b>
                                 </h3>
-                                <p className="productName"> Distribución:<br />
-
+                                <p className="productName">
+                                    Art #04
                                 </p>
-                                <p className="productPrice"><b>Precio:</b></p>
+                                <p className="productPrice"><b>Precio efectivo: $ 4100</b></p>
                                 <div className="descriptionText">
                                     <p className="productPrice">
-                                        <h4><b>Medidas:</b></h4>
-                                        <b>
-
-                                        </b>
+                                        <b>Medidas: <br />35 cm ancho x 22 cm alto x 32 cm profundidad</b>
                                     </p>
                                 </div>
                                 <div className="descriptionText">
@@ -99,16 +94,13 @@ export const Tables = () => {
                                     <b>Mesa de luz flotante<br />
                                     </b>
                                 </h3>
-                                <p className="productName"> Distribución:<br />
-
+                                <p className="productName">
+                                    Art #05
                                 </p>
-                                <p className="productPrice"><b>Precio:</b></p>
+                                <p className="productPrice"><b>Precio efectivo: $5000</b></p>
                                 <div className="descriptionText">
                                     <p className="productPrice">
-                                        <h4><b>Medidas:</b></h4>
-                                        <b>
-
-                                        </b>
+                                        <b>Medidas: <br />45 cm ancho x 32 cm alto x 35 cm profundidad</b>
                                     </p>
                                 </div>
                                 <div className="descriptionText">
@@ -150,13 +142,14 @@ export const Tables = () => {
                                     <b>Mesa de luz flotante<br />
                                     </b>
                                 </h3>
-                                <p className="productName"> Distribución:<br />
+
+                                <p className="productName">Art #06
 
                                 </p>
-                                <p className="productPrice"><b>Precio:</b></p>
+                                <p className="productPrice"><b>Precio efectivo: $4100</b></p>
                                 <div className="descriptionText">
                                     <p className="productPrice">
-                                        <h4><b>Medidas:</b></h4>
+                                        <b>Medidas:<br />35 cm ancho x 22 cm alto x 32 cm profundidad</b>
                                         <b>
 
                                         </b>
