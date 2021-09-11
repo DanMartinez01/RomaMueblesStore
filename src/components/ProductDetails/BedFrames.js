@@ -31,7 +31,6 @@ export const BedFrames = () => {
             <div className="bannerStripe">
                 <h1>Respaldos</h1>
             </div>
-            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E67E22" fill-opacity="1" d="M0,96L60,106.7C120,117,240,139,360,128C480,117,600,75,720,80C840,85,960,139,1080,154.7C1200,171,1320,149,1380,138.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> */}
             <div className="wrapper">
                 <div className="product">
                     <div className="card">
@@ -43,11 +42,11 @@ export const BedFrames = () => {
                             </div>
                             <div className="productContainer" >
                                 <h3><b>Respaldo completo con mesita de luz</b></h3>
-                                <h3 className="productPrice">Art # </h3>
+                                <h3 className="productPrice">Art #07 </h3>
                                 <h3 className="productPrice">Precio: $</h3>
                                 <h3 className="productPrice">Melamina MDF </h3>
                                 <div className="descriptionText">
-                                    <h3 className="productPrice"><b>Medidas: 1.80 x 1.13 cm</b></h3>
+                                    <h3 className="productPrice"><b>Medidas: </b></h3>
                                     <p className="colorText">
                                         <b>Colores:</b><br />
                                         <b>
@@ -80,7 +79,7 @@ export const BedFrames = () => {
                             </div>
                             <div className="productContainer" >
                                 <h3><b>Respaldo de melamina</b></h3>
-                                <h3 className="productPrice">Art # </h3>
+                                <h3 className="productPrice">Art #08 </h3>
                                 <h3 className="productPrice">Precio: $6000</h3>
                                 <h3 className="productPrice">Melamina MDF </h3>
                                 <div className="descriptionText">
