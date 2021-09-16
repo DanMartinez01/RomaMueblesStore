@@ -5,7 +5,7 @@ import { Product } from '../ProductContainer/Product/Product';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
 import { SiWhatsapp } from 'react-icons/si';
-import image11 from '../Carousel/Img/11.jpg';
+import image15 from '../Carousel/Img/15.jpg';
 import mercadolibre from '../Carousel/Img/mercadolibre.png';
 
 export const AboutUs = () => {
@@ -35,7 +35,7 @@ export const AboutUs = () => {
                         <img
                             className="aboutUsImage"
                             width="100%"
-                            src={image11}
+                            src={image15}
                             alt="cama box con cajones"
                         />
                     </div>
