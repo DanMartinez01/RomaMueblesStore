@@ -31,17 +31,6 @@ export const NavBarComponent = (props) => {
                         <Nav.Link href="https://www.instagram.com/romamue21/">
                             <FaInstagram color="white" />
                         </Nav.Link>
-                        {/* <Nav.Link
-                            href="https://articulo.mercadolibre.com.ar/MLA-928703577-cama-box-para-sommier-con-6-cajones-2-mesitas-de-luz-_JM?fbclid=IwAR0TGn9Darz5s6bttBamnLggvSrt-_cFY2HAP7j6mU8hR1Ir3wIdMaO_Kiw"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <div className="meliLogo-NavBar">
-                                <img className="meLi-Img-Nav"
-                                    alt="mercado libre" src={mercadolibre}
-                                    width="65px" height="20px" />
-                            </div>
-                        </Nav.Link> */}
-
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -68,6 +68,7 @@ a.buttonGoCart{
 .colorText{
     padding:7px;
     margin: 0 4px;
+    text-align: left;
 }
 .dot-white {
     height: 10px;

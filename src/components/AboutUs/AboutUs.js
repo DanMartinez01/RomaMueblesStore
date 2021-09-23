@@ -43,11 +43,9 @@ export const AboutUs = () => {
                         <h4>
                             <b>Roma Muebles</b> es una empresa familiar, dedicada al diseño y construcción de muebles artesanales.
                             <br /> <br />
-                            Garantía de fábrica, usamos materiales de calidad premium en cada uno de nuestros productos.
-                            <br />
-                            Consulta por nuestra gran variedad de productos,
-                            <br />
-                            brindamos asesoramiento personalizado para cada una de tus compras.
+                            <b>Garantía de fábrica:</b> usamos materiales de calidad premium en cada uno de nuestros productos.
+                            <br /> <br />
+                            <b>Asesoramiento personalizado:</b> consulta por nuestra variedad de modelosc, colores y medidas.
                             <br /> <br />
                             <div className="presupuestoLink">
                                 <b>
@@ -59,7 +57,7 @@ export const AboutUs = () => {
                                     </a>
                                 </b>
                                 <br /> <br />
-                                Encontranos en Mercado Libre
+                                <b>Encontranos en Mercado Libre</b><br />
                                 <a className="btn-MeLi"
                                     href="https://articulo.mercadolibre.com.ar/MLA-928703577-cama-box-para-sommier-con-6-cajones-2-mesitas-de-luz-_JM?fbclid=IwAR0TGn9Darz5s6bttBamnLggvSrt-_cFY2HAP7j6mU8hR1Ir3wIdMaO_Kiw"
                                     target="_blank"

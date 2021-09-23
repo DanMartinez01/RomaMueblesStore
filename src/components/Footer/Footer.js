@@ -21,9 +21,13 @@ export const Footer = () => {
                     <div className="col">
                         <h4>Roma Muebles</h4>
                         <ui className="list-unstyled">
-                            <li className="footerLinks" >
+                            <a className="footerLinks"
+                                href="https://wa.me/5491130666726"
+                                target="_blank"
+                                rel="noopener noreferrer" >
                                 <SiWhatsapp color="white" /> 1130666726
-                            </li>
+                            </a>
+                            <br />
                             <a className="footerLinks" target="_blank" rel="noreferrer"
                                 href="https://www.facebook.com/Roma-muebles-110762931290216/">
                                 <ImFacebook color="white" /> Facebook

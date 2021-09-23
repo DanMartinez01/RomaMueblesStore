@@ -45,9 +45,12 @@ export const Sets = () => {
                             <img src={image6} className="productPhoto"
                                 alt="mesa de luz flotante"
                             />
+                            <img src={image9} className="productPhoto"
+                                alt="mesa de luz flotante"
+                            />
                             <div className="productContainer" >
                                 <h3>
-                                    Cama + Mesas de luz<br /><b>$ 33.000</b>
+                                    Cama + Mesas de luz + Respaldo<br /><b>$ 44.000</b>
                                 </h3>
 
                                 <div className="descriptionText">
@@ -73,12 +76,9 @@ export const Sets = () => {
                             <img src={image6} className="productPhoto"
                                 alt="mesa de luz flotante"
                             />
-                            <img src={image9} className="productPhoto"
-                                alt="mesa de luz flotante"
-                            />
                             <div className="productContainer" >
                                 <h3>
-                                    Cama + Mesas de luz + Respaldo<br /><b>$ 44.000</b>
+                                    Cama + Mesas de luz<br /><b>$ 33.000</b>
                                 </h3>
 
                                 <div className="descriptionText">

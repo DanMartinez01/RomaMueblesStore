@@ -6,6 +6,7 @@
   }
 
   .contactInfoLinks{
+    text-align: left;
     text-decoration: none;
     color: #fff;
   }
@@ -33,7 +34,7 @@
   
   .contactCard{
     background: #2f3542;
-    padding: 0 20px;
+    padding: 0 10px;
     margin: 0 10px;
     width: calc(33% - 20px);
     height: 300px;
@@ -51,7 +52,7 @@
     width: 60px;
     height: 60px;
     text-align: center;
-    line-height: 60px !important;
+    line-height: 60px!important;
     border-radius: 50%;
     transition: 0.3s linear;
   }
