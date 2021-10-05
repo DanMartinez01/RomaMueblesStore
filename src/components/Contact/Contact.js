@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import './Contact.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Product } from '../ProductContainer/Product/Product';
@@ -8,6 +8,9 @@ import { ContactInfo } from './ContactInfo/ContactInfo';
 import { SiWhatsapp } from 'react-icons/si';
 
 export const Contact = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div>
             <div>

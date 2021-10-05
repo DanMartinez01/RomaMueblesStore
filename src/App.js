@@ -1,4 +1,3 @@
-
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Container } from './components/Container/Container';
@@ -14,7 +13,6 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-
         <Route path="/Contacto" component={Contact}>
           <Contact />
         </Route>

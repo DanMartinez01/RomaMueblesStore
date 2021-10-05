@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import './Tables.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Product } from '../ProductContainer/Product/Product';
@@ -13,6 +13,9 @@ import { SiWhatsapp } from 'react-icons/si';
 
 
 export const Tables = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div>

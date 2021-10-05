@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import './Beds.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Product } from '../ProductContainer/Product/Product';
@@ -12,6 +12,9 @@ import image13 from '../Carousel/Img/13.jpg';
 import { SiWhatsapp } from 'react-icons/si';
 
 export const Beds = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div>

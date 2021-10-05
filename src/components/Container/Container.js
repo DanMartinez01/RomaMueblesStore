@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import './Container.css'
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Carrousel } from '../Carousel/Carrousel'
@@ -10,6 +10,9 @@ import { Product } from '../ProductContainer/Product/Product';
 
 export const Container = () => {
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div className="page-container">
             <div>

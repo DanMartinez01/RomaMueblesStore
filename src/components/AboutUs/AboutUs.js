@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import './AboutUs.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Product } from '../ProductContainer/Product/Product';
@@ -9,6 +9,9 @@ import image15 from '../Carousel/Img/15.jpg';
 import mercadolibre from '../Carousel/Img/mercadolibre.png';
 
 export const AboutUs = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div>
             <div>
