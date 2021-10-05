@@ -44,11 +44,11 @@ export const AboutUs = () => {
                     </div>
                     <div className="aboutUsText">
                         <h4>
-                            <b>Roma Muebles</b> es una empresa familiar, dedicada al diseño y construcción de muebles artesanales.
+                            <b>Roma Muebles</b> es una empresa familiar, dedicada a la construcción de muebles artesanales.
                             <br /> <br />
-                            <b>Garantía de fábrica:</b> usamos materiales de calidad premium en cada uno de nuestros productos.
+                            <b>Garantía de fábrica:</b> Materiales de calidad premium en cada uno de nuestros productos.
                             <br /> <br />
-                            <b>Asesoramiento personalizado:</b> consulta por nuestra variedad de modelosc, colores y medidas.
+                            <b>Asesoramiento personalizado:</b> Consultá​​ por nuestra variedad de modelos, colores y medidas.
                             <br /> <br />
                             <div className="presupuestoLink">
                                 <b>
@@ -56,7 +56,7 @@ export const AboutUs = () => {
                                         href="https://wa.me/9541130666726"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                    >Comunicate con nosotros<br /> pedí tu  presupuesto!
+                                    >Pedí tu  presupuesto!
                                     </a>
                                 </b>
                                 <br /> <br />

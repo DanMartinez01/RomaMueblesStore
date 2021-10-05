@@ -42,6 +42,7 @@ export const Sets = () => {
                 <div className="product">
                     <div className="card">
                         <div className="productBox">
+                            <h3><b>Combo 1</b></h3>
                             <img src={image3} className="productPhoto"
                                 alt="cama box con cajones"
                             />
@@ -73,6 +74,7 @@ export const Sets = () => {
                 <div className="product">
                     <div className="card">
                         <div className="productBox">
+                            <h3><b>Combo 2</b></h3>
                             <img src={image3} className="productPhoto"
                                 alt="cama box con cajones"
                             />

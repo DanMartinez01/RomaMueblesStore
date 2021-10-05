@@ -42,7 +42,7 @@ export const ContactInfo = () => {
                         rel="noopener noreferrer" >
                         <h7><SiWhatsapp /> 1144140293</h7>
                     </a>
-                    <h7><MdLocalPhone size="22px" /> 1175273793</h7>
+                    <h7><MdLocalPhone size="18px" /> 1175273793</h7>
                 </div>
                 <div class="contactCard">
                     <i class="card-icon"><MdLocationOn /></i>

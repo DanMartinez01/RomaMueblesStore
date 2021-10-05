@@ -1,8 +1,0 @@
-.contactBanner-img{
-    opacity: 0.5;
-}
-@media (max-width:600px){
-    .contactBanner-img{
-        height: 150px;
-    }
-}
