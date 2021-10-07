@@ -50,7 +50,7 @@ export const Tables = () => {
                                     </b>
                                 </h3>
                                 <p className="productName">
-                                    Art #04
+                                    Art #05
                                 </p>
                                 <p className="productPrice"><b>Precio efectivo: $ 4100</b></p>
                                 <div className="descriptionText">
@@ -64,11 +64,7 @@ export const Tables = () => {
                                         <b>
                                             <span class="dot-white"></span>Blanco
                                             <br />
-                                            <span class="dot-black"></span> Negro
-                                            <br />
-                                            <span class="dot-lg-brown"></span>Cedro
-                                            <br />
-                                            <span class="dot-dk-brown"></span>Wengue
+                                            Consulte por otros colores
                                         </b>
                                     </p>
                                 </div>
@@ -98,7 +94,7 @@ export const Tables = () => {
                                     </b>
                                 </h3>
                                 <p className="productName">
-                                    Art #05
+                                    Art #06
                                 </p>
                                 <p className="productPrice"><b>Precio efectivo: $5000</b></p>
                                 <div className="descriptionText">
@@ -112,11 +108,7 @@ export const Tables = () => {
                                         <b>
                                             <span class="dot-white"></span>Blanco
                                             <br />
-                                            <span class="dot-black"></span> Negro
-                                            <br />
-                                            <span class="dot-lg-brown"></span>Cedro
-                                            <br />
-                                            <span class="dot-dk-brown"></span>Wengue
+                                            Consulte por otros colores
                                         </b>
                                     </p>
                                 </div>
@@ -146,7 +138,7 @@ export const Tables = () => {
                                     </b>
                                 </h3>
 
-                                <p className="productName">Art #06
+                                <p className="productName">Art #07
 
                                 </p>
                                 <p className="productPrice"><b>Precio efectivo: $4100</b></p>
@@ -164,11 +156,7 @@ export const Tables = () => {
                                         <b>
                                             <span class="dot-white"></span>Blanco
                                             <br />
-                                            <span class="dot-black"></span> Negro
-                                            <br />
-                                            <span class="dot-lg-brown"></span>Cedro
-                                            <br />
-                                            <span class="dot-dk-brown"></span>Wengue
+                                            Consulte por otros colores
                                         </b>
                                     </p>
                                 </div>
