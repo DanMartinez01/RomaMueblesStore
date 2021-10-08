@@ -1,14 +1,11 @@
 import React from 'react';
 import './Footer.css';
 import { ImFacebook } from 'react-icons/im';
-// import { Link } from 'react-router-dom';
-// import { FaFacebookSquare } from 'react-icons/fa';
 import { SiWhatsapp } from "react-icons/si";
-// import { MdEmail } from 'react-icons/md';
 import { MdLocationOn } from 'react-icons/md';
 
-import visa from '../Carousel/Img/visa.png';
-import mastercard from '../Carousel/Img/mastercard.png';
+import visa from '../Carousel/Img/visa2.png';
+import mastercard from '../Carousel/Img/mastercard3.png';
 import mercadopago from '../Carousel/Img/mercadopago.png';
 import pagofacil from '../Carousel/Img/pagofacil.png';
 import { FaInstagram } from 'react-icons/fa';
@@ -44,20 +41,7 @@ export const Footer = () => {
                         </ui>
                     </div>
                     <div>
-                        <img
-                            alt="visa"
-                            src={visa}
-                            fluid
-                            width="50px"
-                            height="30px"
-                        />
-                        <img
-                            alt="master card"
-                            src={mastercard}
-                            fluid
-                            width="30px"
-                            height="30px"
-                        />
+
                         <img
                             alt="mercado pago"
                             src={mercadopago}
@@ -70,6 +54,20 @@ export const Footer = () => {
                             src={pagofacil}
                             fluid
                             width="40px"
+                            height="20px"
+                        />
+                        <img
+                            alt="visa"
+                            src={visa}
+                            fluid
+                            width="40px"
+                            height="20px"
+                        />
+                        <img
+                            alt="master card"
+                            src={mastercard}
+                            fluid
+                            width="35px"
                             height="20px"
                         />
                     </div>

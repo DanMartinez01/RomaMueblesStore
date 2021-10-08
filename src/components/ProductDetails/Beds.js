@@ -4,7 +4,6 @@ import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Product } from '../ProductContainer/Product/Product';
 import { InfoSection } from '../InfoSection/InfoSection';
 import { Footer } from '../Footer/Footer';
-import { Link } from 'react-router-dom';
 
 import image3 from '../Carousel/Img/3.jpg';
 import image1 from '../Carousel/Img/1.jpeg';
@@ -100,7 +99,7 @@ export const Beds = () => {
                                 <p className="productName">
                                     Art #02<br />
                                     Distribución:<br />
-                                    8 cajones laterales + Baulera Frontal
+                                    8 cajones laterales + 2 zapateros<br /> + 2 bauleras
                                 </p>
                                 <h4 className="productPrice"><b>Precio efectivo: $ 35.000</b></h4>
                                 <div className="descriptionText">
@@ -223,7 +222,12 @@ export const Beds = () => {
                                     </p>
                                 </div>
                                 <button className="buttonGoCart">
-                                    <Link className="buttonGoCart" to='/CartView'>Comprar</Link>
+                                    <a className="buttonGoCart"
+                                        href="https://wa.me/5491130666726"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Comprar
+                                    </a>
                                 </button>
                             </div>
 

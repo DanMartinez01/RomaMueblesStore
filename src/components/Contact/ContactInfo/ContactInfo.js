@@ -40,7 +40,7 @@ export const ContactInfo = () => {
                         href="https://wa.me/5491144140293"
                         target="_blank"
                         rel="noopener noreferrer" >
-                        <h7><SiWhatsapp /> 1144140293</h7>
+                        <h7><SiWhatsapp /> 1144140297</h7>
                     </a>
                     <h7><MdLocalPhone size="18px" /> 1175273793</h7>
                 </div>
