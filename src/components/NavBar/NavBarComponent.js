@@ -3,8 +3,6 @@ import './NavBarComponent.css';
 import { Link } from 'react-router-dom';
 import { FaInstagram } from 'react-icons/fa'
 import { ImFacebook } from 'react-icons/im';
-// import mercadolibre from '../Carousel/Img/mercadolibre.png';
-// import mercadolibre from '../Carousel/Img/ml-white.png';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 
 export const NavBarComponent = (props) => {
@@ -22,7 +20,6 @@ export const NavBarComponent = (props) => {
                         <Nav.Link as={Link} to={"/Combos"}>Combos</Nav.Link>
                     </Nav>
                     <Nav>
-
                         <Nav.Link as={Link} to={"/Nosotros"}>Nosotros</Nav.Link>
                         <Nav.Link as={Link} to={"/Contacto"}>Contacto</Nav.Link>
                         <Nav.Link href="https://www.facebook.com/Roma-muebles-110762931290216/">

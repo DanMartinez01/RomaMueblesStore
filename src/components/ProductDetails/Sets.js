@@ -54,7 +54,7 @@ export const Sets = () => {
                             />
                             <div className="productContainer" >
                                 <h3>
-                                    Cama + Mesas de luz + Respaldo<br /><b>$ 44.000</b>
+                                    Cama + Mesas de luz + Respaldo
                                 </h3>
 
                                 <div className="descriptionText">
@@ -83,7 +83,7 @@ export const Sets = () => {
                             />
                             <div className="productContainer" >
                                 <h3>
-                                    Cama + Mesas de luz<br /><b>$ 33.000</b>
+                                    Cama + Mesas de luz
                                 </h3>
 
                                 <div className="descriptionText">

@@ -52,7 +52,6 @@ export const Tables = () => {
                                 <p className="productName">
                                     Art #05
                                 </p>
-                                <p className="productPrice"><b>Precio efectivo: $ 4100</b></p>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <b>Medidas: <br />35 cm ancho x 22 cm alto x 32 cm profundidad</b>
@@ -96,7 +95,6 @@ export const Tables = () => {
                                 <p className="productName">
                                     Art #06
                                 </p>
-                                <p className="productPrice"><b>Precio efectivo: $5000</b></p>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <b>Medidas: <br />45 cm ancho x 32 cm alto x 35 cm profundidad</b>
@@ -138,10 +136,7 @@ export const Tables = () => {
                                     </b>
                                 </h3>
 
-                                <p className="productName">Art #07
-
-                                </p>
-                                <p className="productPrice"><b>Precio efectivo: $4100</b></p>
+                                <p className="productName">Art #07</p>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <b>Medidas:<br />35 cm ancho x 22 cm alto x 32 cm profundidad</b>

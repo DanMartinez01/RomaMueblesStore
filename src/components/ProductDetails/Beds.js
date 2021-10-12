@@ -52,7 +52,6 @@ export const Beds = () => {
                                     Distribución:<br />
                                     4 cajones laterales + 2 cajones frontales <br />+ Baulera Interna
                                 </p>
-                                <h4 className="productPrice"><b>Precio efectivo: $ 27.000</b></h4>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
@@ -93,15 +92,13 @@ export const Beds = () => {
                                     />
                                 </div>
                                 <h3>
-                                    <b>Cama Box con 8 cajones en total<br /> + baulera frontal<br />
+                                    <b>Cama Box con 8 cajones + baulera<br />+ zapatero
                                     </b>
                                 </h3>
                                 <p className="productName">
                                     Art #02<br />
                                     Distribución:<br />
-                                    8 cajones laterales + 2 zapateros<br /> + 2 bauleras
-                                </p>
-                                <h4 className="productPrice"><b>Precio efectivo: $ 35.000</b></h4>
+                                    8 cajones laterales + 2 zapateros frontales<br /> + baulera central                                </p>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
@@ -152,7 +149,6 @@ export const Beds = () => {
                                     Distribución:<br />
                                     4 cajones laterales + 2 cajones frontales + Baulera Interna
                                 </p>
-                                <h4 className="productPrice"><b>Precio efectivo: $ 30.000</b></h4>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
@@ -202,7 +198,6 @@ export const Beds = () => {
                                     Distribución:<br />
                                     4 cajones laterales + 2 cajones frontales
                                 </p>
-                                <h4 className="productPrice"><b>Precio efectivo: $ 20.000</b></h4>
                                 <div className="descriptionText">
                                     <p className="productPrice">
                                         <h4><b>Medidas:</b></h4>
@@ -230,7 +225,6 @@ export const Beds = () => {
                                     </a>
                                 </button>
                             </div>
-
                         </div>
                     </div>
                 </div>

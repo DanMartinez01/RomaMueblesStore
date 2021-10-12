@@ -46,7 +46,6 @@ export const BedFrames = () => {
                             <div className="productContainer" >
                                 <h3><b>Respaldo completo <br />con mesita de luz</b></h3>
                                 <h3 className="productPrice">Art #08</h3>
-                                <h3 className="productPrice">Precio: $13.000</h3>
                                 <h3 className="productPrice">Melamina MDF </h3>
                                 <div className="descriptionText">
                                     <h3 className="productPrice"><b>Medidas: </b></h3>
@@ -83,7 +82,6 @@ export const BedFrames = () => {
                             <div className="productContainer" >
                                 <h3><b>Respaldo de melamina </b></h3>
                                 <h3 className="productPrice">Art #09 </h3>
-                                <h3 className="productPrice">Precio: $6000</h3>
                                 <h3 className="productPrice">Melamina MDF </h3>
                                 <div className="descriptionText">
                                     <h3 className="productPrice"><b>Medidas: 1.80 x 1.13 cm</b></h3>
