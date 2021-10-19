@@ -41,7 +41,6 @@ export const Footer = () => {
                         </ui>
                     </div>
                     <div>
-
                         <img
                             alt="mercado pago"
                             src={mercadopago}

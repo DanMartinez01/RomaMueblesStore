@@ -12,81 +12,81 @@ export const Product = () => {
             <h1 className="categoriesTitle">Nuestros productos</h1>
             <div className="wrapper">
                 <div className="product">
-                    <div className="card">
-                        <div className="productBox">
-                            <div className="productContainer" >
-                                <div className="imgContainer">
-                                    <Link to='/Camas'>
-                                        <img src={image3} className="productPhoto"
-                                            alt="cama box con cajones"
-                                        />
-                                    </Link>
-                                </div>
-                                <div className="colorStripe">
-                                    <br />
-                                    <Link className="infoSectionLink" to='/Camas'><p className="categoriesText">CAMAS</p></Link>
-                                    <br />
-                                </div>
+                    <div className="productBox">
+                        <div className="productContainer" >
+                            <div className="imgContainer">
+                                <Link to='/Camas'>
+                                    <img src={image3} className="productPhoto"
+                                        alt="cama box con cajones"
+                                    />
+                                </Link>
+                            </div>
+                            <div className="colorStripe">
+                                <br />
+                                <Link className="infoSectionLink" to='/Camas'>
+                                    <p className="categoriesText">CAMAS</p>
+                                </Link>
+                                <br />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="product">
-                    <div className="card">
-                        <div className="productBox">
-                            <div className="productContainer" >
-                                <div className="imgContainer">
-                                    <Link to='/Mesasdeluz'>
-                                        <img src={image6} className="productPhoto"
-                                            alt="mesa de luz flotante"
-                                        />
-                                    </Link>
-                                </div>
-                                <div className="colorStripe">
-                                    <br />
-                                    <Link className="infoSectionLink" to='/Mesasdeluz'><p className="categoriesText">MESAS DE LUZ</p></Link>
-                                    <br />
-                                </div>
+                    <div className="productBox">
+                        <div className="productContainer" >
+                            <div className="imgContainer">
+                                <Link to='/Mesasdeluz'>
+                                    <img src={image6} className="productPhoto"
+                                        alt="mesa de luz flotante"
+                                    />
+                                </Link>
+                            </div>
+                            <div className="colorStripe">
+                                <br />
+                                <Link className="infoSectionLink" to='/Mesasdeluz'>
+                                    <p className="categoriesText">MESAS DE LUZ</p>
+                                </Link>
+                                <br />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="product">
-                    <div className="card">
-                        <div className="productBox">
-                            <div className="productContainer" >
-                                <div className="imgContainer">
-                                    <Link to='/Respaldos'>
-                                        <img src={image7} className="productPhoto"
-                                            alt="respaldos de melamina"
-                                        />
-                                    </Link>
-                                </div>
-                                <div className="colorStripe">
-                                    <br />
-                                    <Link className="infoSectionLink" to='/Respaldos'><p className="categoriesText">RESPALDOS</p></Link>
-                                    <br />
-                                </div>
+                    <div className="productBox">
+                        <div className="productContainer" >
+                            <div className="imgContainer">
+                                <Link to='/Respaldos'>
+                                    <img src={image7} className="productPhoto"
+                                        alt="respaldos de melamina"
+                                    />
+                                </Link>
+                            </div>
+                            <div className="colorStripe">
+                                <br />
+                                <Link className="infoSectionLink" to='/Respaldos'>
+                                    <p className="categoriesText">RESPALDOS</p>
+                                </Link>
+                                <br />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="product">
-                    <div className="card">
-                        <div className="productBox">
-                            <div className="productContainer" >
-                                <div className="imgContainer">
-                                    <Link to='/Combos'>
-                                        <img src={image3} className="productPhoto"
-                                            alt="cambo: cama mesita de luz respaldo"
-                                        />
-                                    </Link>
-                                </div>
-                                <div className="colorStripe">
-                                    <br />
-                                    <Link className="infoSectionLink" to='/Combos'><p className="categoriesText">PEDI EL COMBO!</p></Link>
-                                    <br />
-                                </div>
+                    <div className="productBox">
+                        <div className="productContainer" >
+                            <div className="imgContainer">
+                                <Link to='/Combos'>
+                                    <img src={image3} className="productPhoto"
+                                        alt="cambo: cama mesita de luz respaldo"
+                                    />
+                                </Link>
+                            </div>
+                            <div className="colorStripe">
+                                <br />
+                                <Link className="infoSectionLink" to='/Combos'>
+                                    <p className="categoriesText">PEDI EL COMBO!</p>
+                                </Link>
+                                <br />
                             </div>
                         </div>
                     </div>

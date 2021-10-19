@@ -70,14 +70,16 @@ export const Beds = () => {
                                         </b>
                                     </p>
                                 </div>
-                                <button className="buttonGoCart">
-                                    <a className="buttonGoCart"
-                                        href="https://wa.me/5491130666726"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        Comprar
-                                    </a>
-                                </button>
+                                <div className="buttonDiv">
+                                    <button className="buttonGoCart">
+                                        <a className="buttonGoCart"
+                                            href="https://wa.me/5491130666726"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            Comprar
+                                        </a>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -117,14 +119,16 @@ export const Beds = () => {
                                         </b>
                                     </p>
                                 </div>
-                                <button className="buttonGoCart">
-                                    <a className="buttonGoCart"
-                                        href="https://wa.me/5491130666726"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        Comprar
-                                    </a>
-                                </button>
+                                <div className="buttonDiv">
+                                    <button className="buttonGoCart">
+                                        <a className="buttonGoCart"
+                                            href="https://wa.me/5491130666726"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            Comprar
+                                        </a>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -167,14 +171,16 @@ export const Beds = () => {
                                         </b>
                                     </p>
                                 </div>
-                                <button className="buttonGoCart">
-                                    <a className="buttonGoCart"
-                                        href="https://wa.me/5491130666726"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        Comprar
-                                    </a>
-                                </button>
+                                <div className="buttonDiv">
+                                    <button className="buttonGoCart">
+                                        <a className="buttonGoCart"
+                                            href="https://wa.me/5491130666726"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            Comprar
+                                        </a>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -216,14 +222,16 @@ export const Beds = () => {
                                         </b>
                                     </p>
                                 </div>
-                                <button className="buttonGoCart">
-                                    <a className="buttonGoCart"
-                                        href="https://wa.me/5491130666726"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-                                        Comprar
-                                    </a>
-                                </button>
+                                <div className="buttonDiv">
+                                    <button className="buttonGoCart">
+                                        <a className="buttonGoCart"
+                                            href="https://wa.me/5491130666726"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            Comprar
+                                        </a>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>

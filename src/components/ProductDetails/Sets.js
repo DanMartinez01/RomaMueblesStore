@@ -56,16 +56,17 @@ export const Sets = () => {
                                 <h3>
                                     Cama + Mesas de luz + Respaldo
                                 </h3>
-
                                 <div className="descriptionText">
-                                    <button className="buttonGoCart">
-                                        <a className="buttonGoCart"
-                                            href="https://wa.me/5491130666726"
-                                            target="_blank"
-                                            rel="noopener noreferrer">
-                                            Lo quiero
-                                        </a>
-                                    </button>
+                                    <div className="buttonDiv">
+                                        <button className="buttonGoCart">
+                                            <a className="buttonGoCart"
+                                                href="https://wa.me/5491130666726"
+                                                target="_blank"
+                                                rel="noopener noreferrer">
+                                                Lo quiero
+                                            </a>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -85,16 +86,17 @@ export const Sets = () => {
                                 <h3>
                                     Cama + Mesas de luz
                                 </h3>
-
                                 <div className="descriptionText">
-                                    <button className="buttonGoCart">
-                                        <a className="buttonGoCart"
-                                            href="https://wa.me/5491130666726"
-                                            target="_blank"
-                                            rel="noopener noreferrer">
-                                            Lo quiero
-                                        </a>
-                                    </button>
+                                    <div className="buttonDiv">
+                                        <button className="buttonGoCart">
+                                            <a className="buttonGoCart"
+                                                href="https://wa.me/5491130666726"
+                                                target="_blank"
+                                                rel="noopener noreferrer">
+                                                Lo quiero
+                                            </a>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

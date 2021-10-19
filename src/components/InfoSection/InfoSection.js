@@ -40,7 +40,6 @@ export const InfoSection = () => {
                         <button className="goToMeli">
                             <h4><b>Encontranos en</b></h4>
                             <ui className="list-unstyled">
-
                                 <a
                                     href="https://articulo.mercadolibre.com.ar/MLA-928703577-cama-box-para-sommier-con-6-cajones-2-mesitas-de-luz-_JM?fbclid=IwAR0TGn9Darz5s6bttBamnLggvSrt-_cFY2HAP7j6mU8hR1Ir3wIdMaO_Kiw"
                                     target="_blank"

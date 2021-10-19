@@ -8,12 +8,16 @@
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-style: none;
+    outline: none;
+}
+.card{
+    border-style: none;
 }
 .wrapper{
     display:flex;
     flex-direction: column;
     margin:auto;
-    
 }
 @media (min-width:600px){
     .wrapper{
@@ -36,6 +40,9 @@
     text-align: left;
     margin:0 4px;
     padding: 7px;
+}
+.buttonDiv{
+    margin-top: 20px;
 }
 .buttonGoCart{
     display: flex;
