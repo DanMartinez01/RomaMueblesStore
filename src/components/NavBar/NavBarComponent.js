@@ -8,7 +8,7 @@ import { Nav, Navbar, Container } from 'react-bootstrap';
 export const NavBarComponent = (props) => {
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" >
             <Container>
                 <Navbar.Brand as={Link} to={"/"}><h3>Roma Muebles</h3></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

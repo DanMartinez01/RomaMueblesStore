@@ -1,5 +1,5 @@
 import { React, useEffect } from 'react';
-import './BedFrames.css';
+import './productStyles.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Product } from '../ProductContainer/Product/Product';
 import { InfoSection } from '../InfoSection/InfoSection';

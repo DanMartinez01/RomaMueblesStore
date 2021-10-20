@@ -14,9 +14,9 @@
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    -webkit-box-shadow: 3px 3px 12px 0px rgba(204,192,204,1);
-    -moz-box-shadow: 3px 3px 12px 0px rgba(204,192,204,1);
-    box-shadow: 3px 3px 12px 0px rgba(204,192,204,1);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(237,237,237,1);
+-moz-box-shadow: 4px 4px 5px 0px rgba(237,237,237,1);
+box-shadow: 4px 4px 5px 0px rgba(237,237,237,1);
 }
 
 @media (min-width:800px){
@@ -28,6 +28,7 @@
 .productContainer{
     margin-bottom: 4px;
     justify-content: center;
+    padding-bottom: 0px;
 }
 .imgContainer{
     text-align: center;
