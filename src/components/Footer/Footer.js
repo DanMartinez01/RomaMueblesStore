@@ -4,8 +4,8 @@ import { ImFacebook } from 'react-icons/im';
 import { SiWhatsapp } from "react-icons/si";
 import { MdLocationOn } from 'react-icons/md';
 
-import visa from '../Carousel/Img/visa2.png';
-import mastercard from '../Carousel/Img/mastercard3.png';
+import visa from '../Carousel/Img/visa.png';
+import mastercard from '../Carousel/Img/mastercard.png';
 import mercadopago from '../Carousel/Img/mercadopago.png';
 import pagofacil from '../Carousel/Img/pagofacil.png';
 import { FaInstagram } from 'react-icons/fa';
