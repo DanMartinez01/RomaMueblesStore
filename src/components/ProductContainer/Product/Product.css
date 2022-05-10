@@ -1,76 +1,88 @@
-*{
-    font-family: 'Montserrat', sans-serif; 
+* {
+    font-family: 'Montserrat', sans-serif;
 }
-.wrapper{
-    display:flex;
+
+.wrapper {
+    display: flex;
     flex-direction: column;
-    margin:auto;
-	flex-wrap: wrap; 
+    margin: auto;
+    flex-wrap: wrap;
 }
-.product{
+
+.product {
     display: flex;
     width: calc (100% - 20px);
-    padding:0 2px;
+    padding: 0 2px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    -webkit-box-shadow: 4px 4px 5px 0px rgba(237,237,237,1);
--moz-box-shadow: 4px 4px 5px 0px rgba(237,237,237,1);
-box-shadow: 4px 4px 5px 0px rgba(237,237,237,1);
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
+    box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
 }
 
-@media (min-width:800px){
-    .wrapper{
-        flex-direction: row;
-        align-items: center;
-    }
+.product:hover {
+    transform: scale(1.1);
 }
-.productContainer{
+
+.productContainer {
     margin-bottom: 4px;
     justify-content: center;
     padding-bottom: 0px;
 }
-.imgContainer{
+
+.imgContainer {
     text-align: center;
 }
 
-.productPhoto{
+.productPhoto {
     justify-content: center;
-    margin:0 auto;
-    width:320px;
-    height:200px;
+    margin: 0 auto;
+    width: 320px;
+    height: 200px;
 }
-.productPhoto:hover {
-	transform: scale(1.1); 
-}
-.productName, .productPrice{
-    font-size:medium;
+
+.productName,
+.productPrice {
+    font-size: medium;
     font-weight: bolder;
     text-align: left;
-    margin:0 4px;
+    margin: 0 4px;
     padding: 7px;
 }
 
 
-.descriptionText{
-    margin:0 auto;
-} 
-
-.colorStripe{
-	background-color: #E67E22;
-	text-align: center;
-	font-weight: bold;
-	font-size: larger;
-	padding: 0px;
-    margin:0px;
+.descriptionText {
+    margin: 0 auto;
 }
 
-.categoriesTitle{
-	background-color: #E67E22;
-	padding: 30px;
-	color:white;
-	font-weight: bolder;
+.colorStripe {
+    background-color: #E67E22;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0px;
+    margin: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
-.categoriesText{
+
+.categoriesTitle {
+    background-color: #E67E22;
+    padding: 30px;
     color: white;
+    font-weight: bolder;
+}
+
+.categoriesText {
+    color: white;
+    font-size: larger;
+}
+
+@media (min-width:800px) {
+    .wrapper {
+        flex-direction: row;
+        align-items: center;
+    }
 }

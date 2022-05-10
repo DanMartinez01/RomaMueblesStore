@@ -23,7 +23,7 @@ export const Product = () => {
                         <div className="colorStripe">
                             <br />
                             <Link className="infoSectionLink" to='/Camas'>
-                                <p className="categoriesText">CAMAS</p>
+                                <p className="categoriesText">Camas</p>
                             </Link>
                             <br />
                         </div>
@@ -41,7 +41,7 @@ export const Product = () => {
                         <div className="colorStripe">
                             <br />
                             <Link className="infoSectionLink" to='/Mesasdeluz'>
-                                <p className="categoriesText">MESAS DE LUZ</p>
+                                <p className="categoriesText">Mesas de luz</p>
                             </Link>
                             <br />
                         </div>
@@ -59,7 +59,7 @@ export const Product = () => {
                         <div className="colorStripe">
                             <br />
                             <Link className="infoSectionLink" to='/Respaldos'>
-                                <p className="categoriesText">RESPALDOS</p>
+                                <p className="categoriesText">Respaldos</p>
                             </Link>
                             <br />
                         </div>
@@ -77,7 +77,7 @@ export const Product = () => {
                         <div className="colorStripe">
                             <br />
                             <Link className="infoSectionLink" to='/Combos'>
-                                <p className="categoriesText">PEDI EL COMBO!</p>
+                                <p className="categoriesText">Pedí el combo!</p>
                             </Link>
                             <br />
                         </div>
