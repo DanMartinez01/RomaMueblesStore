@@ -1,88 +1,94 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
 
-  .contactInfoLinks{
-    text-align: left;
-    text-decoration: none;
-    color: #fff;
-  }
-  .contactInfoLinks:hover{
-    color:black;
-  } 
+.contactInfoLinks {
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+}
 
-  .contactContainer{
-    background: #ffffff;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .contact-info{
-    display: flex;
-    width: 100%;
-    max-width: 1200px;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px;
-    margin-top: 0px;
-  }
-  
-  
-  .contactCard{
-    background: #2f3542;
-    padding: 0 10px;
-    margin: 0 10px;
-    width: calc(33% - 20px);
-    height: 300px;
-    display: flex;
+.contactInfoLinks:hover {
+  color: black;
+}
+
+.contactContainer {
+  background: #ffffff;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.contact-info {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+
+.contactCard {
+  background: #2f3542;
+  padding: 0 10px;
+  margin: 0 10px;
+  width: calc(33% - 20px);
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.card-icon {
+  font-size: 28px;
+  background: #E67E22;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.contactCard:hover .card-icon {
+  background: none;
+  color: orange;
+  transform: scale(1.6);
+}
+
+.contactCard p {
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  transition: 0.3s linear;
+}
+
+.contactCard:hover p {
+  max-height: 40px;
+}
+
+
+@media screen and (max-width:880px) {
+  .contact-info {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    cursor: pointer;
   }
-  
-  .card-icon{
-    font-size: 28px;
-    background:#E67E22;
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px!important;
-    border-radius: 50%;
-    transition: 0.3s linear;
+
+  .contactCard {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: smaller;
   }
-  
-  .contactCard:hover .card-icon{
-    background: none;
-    color: orange;
-    transform: scale(1.6);
-  }
-  
-  .contactCard p{
-    margin-top: 20px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    max-height: 0;
-    transition: 0.3s linear;
-  }
-  
-  .contactCard:hover p{
-    max-height: 40px;
-  }
-  
-  
-  @media screen and (max-width:800px) {
-    .contact-info{
-      flex-direction: column;
-    }
-    .contactCard{
-      width: 100%;
-      max-width: 300px;
-      margin: 10px 0;
-    }
-  }
+}

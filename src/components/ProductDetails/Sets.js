@@ -1,5 +1,5 @@
 import { React, useEffect } from 'react';
-import './productStyles.css';
+import './Sets.css';
 import { NavBarComponent } from '../NavBar/NavBarComponent';
 import { Product } from '../ProductContainer/Product/Product';
 import { InfoSection } from '../InfoSection/InfoSection';
@@ -38,68 +38,63 @@ export const Sets = () => {
                 <br />
                 <h5 className="comboDescription">Consulte por otros colores y modelos</h5>
             </h3>
-            <div className="wrapper">
-                <div className="product">
-                    <div className="card">
-                        <div className="productBox">
-                            <h3><b>Combo 1</b></h3>
-                            <img src={image3} className="productPhoto"
-                                alt="cama box con cajones"
-                            />
-                            <img src={image6} className="productPhoto"
-                                alt="mesa de luz flotante"
-                            />
-                            <img src={image9} className="productPhoto"
-                                alt="mesa de luz flotante"
-                            />
-                            <div className="productContainer" >
-                                <h3>
-                                    Cama + Mesas de luz + Respaldo
-                                </h3>
-                                <div className="descriptionText">
-                                    <div className="buttonDiv">
-                                        <button className="buttonGoCart">
-                                            <a className="buttonGoCart"
-                                                href="https://wa.me/5491130666726"
-                                                target="_blank"
-                                                rel="noopener noreferrer">
-                                                Lo quiero
-                                            </a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+            <div className="ComboWrapper">
+                <h3><b>Combo 1</b></h3>
+                <div>
+                    <div className="ProductsCard">
+                        <img src={image3} className="ComboImg"
+                            alt="cama box con cajones"
+                        />
+                        <img src={image6} className="ComboImg"
+                            alt="mesa de luz flotante"
+                        />
+                        <img src={image9} className="ComboImg"
+                            alt="mesa de luz flotante"
+                        />
+                    </div>
+
+                    <h3>
+                        Cama + Mesas de luz + Respaldo
+                    </h3>
+                    <div className="descriptionText">
+                        <div className="buttonDiv">
+                            <button className="buttonGoCart">
+                                <a className="buttonGoCart"
+                                    href="https://wa.me/5491130666726"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Lo quiero
+                                </a>
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div className="product">
-                    <div className="card">
-                        <div className="productBox">
-                            <h3><b>Combo 2</b></h3>
-                            <img src={image3} className="productPhoto"
-                                alt="cama box con cajones"
-                            />
-                            <img src={image6} className="productPhoto"
-                                alt="mesa de luz flotante"
-                            />
-                            <div className="productContainer" >
-                                <h3>
-                                    Cama + Mesas de luz
-                                </h3>
-                                <div className="descriptionText">
-                                    <div className="buttonDiv">
-                                        <button className="buttonGoCart">
-                                            <a className="buttonGoCart"
-                                                href="https://wa.me/5491130666726"
-                                                target="_blank"
-                                                rel="noopener noreferrer">
-                                                Lo quiero
-                                            </a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                <div className="ComboWrapper">
+                    <h3><b>Combo 2</b></h3>
+                    <div className="ProductsCard">
+                        <img src={image3} className="ComboImg"
+                            alt="cama box con cajones"
+                        />
+                        <img src={image6} className="ComboImg"
+                            alt="mesa de luz flotante"
+                        />
+                    </div>
+
+                    <h3>
+                        Cama + Mesas de luz
+                    </h3>
+                </div>
+                <div className="descriptionText">
+                    <div className="buttonDiv">
+                        <button className="buttonGoCart">
+                            <a className="buttonGoCart"
+                                href="https://wa.me/5491130666726"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Lo quiero
+                            </a>
+                        </button>
                     </div>
                 </div>
             </div>

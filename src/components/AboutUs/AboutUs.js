@@ -37,38 +37,37 @@ export const AboutUs = () => {
                     <div className="aboutUsImgContainer">
                         <img
                             className="aboutUsImage"
-                            width="100%"
                             src={image15}
                             alt="cama box con cajones"
                         />
                     </div>
                     <div className="aboutUsText">
-                        <h4>
+                        <p>
                             <b>Roma Muebles</b> es una empresa familiar, dedicada a la construcción de muebles artesanales.
                             <br /> <br />
                             <b>Garantía de fábrica:</b> Materiales de calidad premium en cada uno de nuestros productos.
                             <br /> <br />
                             <b>Asesoramiento personalizado:</b> Consultá​​ por nuestra variedad de modelos, colores y medidas.
                             <br /> <br />
-                            <div className="presupuestoLink">
-                                <b>
-                                    <a className="presupuestoLink"
-                                        href="https://wa.me/9541130666726"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >Pedí tu  presupuesto!
-                                    </a>
-                                </b>
-                                <br /> <br />
-                                <b>Encontranos en Mercado Libre</b><br />
-                                <a className="btn-MeLi"
-                                    href="https://articulo.mercadolibre.com.ar/MLA-928703577-cama-box-para-sommier-con-6-cajones-2-mesitas-de-luz-_JM?fbclid=IwAR0TGn9Darz5s6bttBamnLggvSrt-_cFY2HAP7j6mU8hR1Ir3wIdMaO_Kiw"
+                        </p>
+                        <div className="presupuestoLink">
+                            {/* <b>
+                                <a className="presupuestoLink"
+                                    href="https://wa.me/9541130666726"
                                     target="_blank"
-                                    rel="noopener noreferrer">
-                                    <img alt="mercado libre" src={mercadolibre} width="85px" height="30 px" />
+                                    rel="noopener noreferrer"
+                                >Pedí tu  presupuesto!
                                 </a>
-                            </div>
-                        </h4>
+                            </b>
+                            <br /> <br /> */}
+                            <b>Encontranos en Mercado Libre</b><br />
+                            <a className="btn-MeLi"
+                                href="https://articulo.mercadolibre.com.ar/MLA-928703577-cama-box-para-sommier-con-6-cajones-2-mesitas-de-luz-_JM?fbclid=IwAR0TGn9Darz5s6bttBamnLggvSrt-_cFY2HAP7j6mU8hR1Ir3wIdMaO_Kiw"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img alt="mercado libre" src={mercadolibre} width="85px" height="30 px" />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

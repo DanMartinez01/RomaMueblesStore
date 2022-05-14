@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 import { ImFacebook } from 'react-icons/im';
 import { SiWhatsapp } from "react-icons/si";
 import { MdLocationOn } from 'react-icons/md';
@@ -16,7 +17,7 @@ export const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h4>Roma Muebles</h4>
+                        <h4><Link className="footerLinks" to='/'>Roma Muebles</Link></h4>
                         <ui className="list-unstyled">
                             <a className="footerLinks"
                                 href="https://wa.me/5491130666726"
