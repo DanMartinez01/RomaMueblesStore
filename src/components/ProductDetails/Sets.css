@@ -22,3 +22,14 @@
     width: 300px;
     height: 200px;
 }
+
+@media (max-width:600px) {
+    .ComboImg {
+        display: flex;
+        width: 100%;
+    }
+
+    .ProductsCard {
+        flex-direction: column;
+    }
+}
