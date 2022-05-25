@@ -2,7 +2,6 @@
     display: flex;
     margin: 0 auto;
     margin-bottom: 20px;
-    padding: 10px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -12,7 +11,8 @@
 .CardCombo {
     background-color: #ffff;
     padding: 10px;
-    margin: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
     border-radius: 20px;
     -webkit-box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
     -moz-box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
@@ -31,7 +31,6 @@
 @media (max-width:990px) {
     .ComboWrapper {
         flex-direction: column;
-        padding: 5px;
     }
 
 }
@@ -39,6 +38,10 @@
 @media (max-width:600px) {
     .ProductsImg {
         flex-direction: column;
+    }
+
+    .CardCombo {
+        width: 90%;
     }
 
 }
