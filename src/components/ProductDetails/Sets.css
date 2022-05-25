@@ -3,35 +3,42 @@
     margin: 0 auto;
     margin-bottom: 20px;
     padding: 10px;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    background-color: #fff;
 }
 
-.ProductsCard {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    border-radius: 20px;
+.CardCombo {
     background-color: #ffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
     -webkit-box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
     -moz-box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
     box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
 }
 
-.ComboImg {
+.ProductsImg {
     display: flex;
     flex-direction: row;
-    width: 300px;
-    height: 200px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+
+@media (max-width:990px) {
+    .ComboWrapper {
+        flex-direction: column;
+        padding: 5px;
+    }
+
 }
 
 @media (max-width:600px) {
-    .ComboImg {
-        display: flex;
-        width: 100%;
-    }
-
-    .ProductsCard {
+    .ProductsImg {
         flex-direction: column;
     }
+
 }

@@ -27,7 +27,7 @@ export const Contact = () => {
             </div>
             <NavBarComponent />
             <div className="bannerStripe">
-                <h1>Contactanos!</h1>
+                <h1>/Contactanos!</h1>
             </div>
             <ContactInfo />
             <Product />

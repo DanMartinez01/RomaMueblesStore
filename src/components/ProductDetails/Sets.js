@@ -32,24 +32,30 @@ export const Sets = () => {
             </div>
             <NavBarComponent />
             <div className="bannerStripe">
-                <h1>Combos</h1>
+                <h1>/Combos</h1>
             </div>
             <h3 className="comboDescription"><b>Ahorrá llevando el combo!</b>
                 <br />
                 <h5 className="comboDescription">Consulte por otros colores y modelos</h5>
             </h3>
             <div className="ComboWrapper">
-                <h3><b>Combo 1</b></h3>
-                <div>
-                    <div className="ProductsCard">
+                <div className="CardCombo">
+                    <h3><b>Combo 1</b></h3>
+                    <div className="ProductsImg">
                         <img src={image3} className="ComboImg"
                             alt="cama box con cajones"
+                            width="250px"
+                            height="150px"
                         />
                         <img src={image6} className="ComboImg"
                             alt="mesa de luz flotante"
+                            width="150px"
+                            height="100px"
                         />
                         <img src={image9} className="ComboImg"
                             alt="mesa de luz flotante"
+                            width="150px"
+                            height="100px"
                         />
                     </div>
 
@@ -69,32 +75,35 @@ export const Sets = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className="ComboWrapper">
+                <div className="CardCombo" >
                     <h3><b>Combo 2</b></h3>
-                    <div className="ProductsCard">
+                    <div className="ProductsImg">
                         <img src={image3} className="ComboImg"
                             alt="cama box con cajones"
+                            width="250px"
+                            height="150px"
                         />
                         <img src={image6} className="ComboImg"
                             alt="mesa de luz flotante"
+                            width="150px"
+                            height="100px"
                         />
                     </div>
 
                     <h3>
                         Cama + Mesas de luz
                     </h3>
-                </div>
-                <div className="descriptionText">
-                    <div className="buttonDiv">
-                        <button className="buttonGoCart">
-                            <a className="buttonGoCart"
-                                href="https://wa.me/5491130666726"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                Lo quiero
-                            </a>
-                        </button>
+                    <div className="descriptionText">
+                        <div className="buttonDiv">
+                            <button className="buttonGoCart">
+                                <a className="buttonGoCart"
+                                    href="https://wa.me/5491130666726"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Lo quiero
+                                </a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

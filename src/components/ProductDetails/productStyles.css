@@ -2,22 +2,26 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.bannerStripe {
+    background-color: #E67E22;
+    padding: 5px;
+}
+
+h1 {
+    text-align: left;
+    padding: 5px;
+    margin-left: 20px;
+    color: white;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
     margin: auto;
 }
 
-/* .product{
-    display: flex;
-    width: calc (100% - 20px);
-    padding:0 2px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-style: none;
-    outline: none;
-} */
 .card {
     display: flex;
     width: 400px;

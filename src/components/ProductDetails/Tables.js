@@ -33,7 +33,7 @@ export const Tables = () => {
             </div>
             <NavBarComponent />
             <div className="bannerStripe">
-                <h1>Mesas de luz</h1>
+                <h1>/Mesas de luz</h1>
             </div>
             <div className="wrapper">
                 <div className="product">

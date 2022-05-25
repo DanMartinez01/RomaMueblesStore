@@ -31,7 +31,7 @@ export const Beds = () => {
             </div>
             <NavBarComponent />
             <div className="bannerStripe">
-                <h1>Camas</h1>
+                <h1>/Camas</h1>
             </div>
             <div className="wrapper">
                 <div className="product">

@@ -29,7 +29,7 @@ export const AboutUs = () => {
             <NavBarComponent />
             <div className="bannerStripe">
                 <h1 className="bannerStripeText">
-                    Nosotros
+                    /Nosotros
                 </h1>
             </div>
             <div>

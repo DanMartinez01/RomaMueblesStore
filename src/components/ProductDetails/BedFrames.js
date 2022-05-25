@@ -32,7 +32,7 @@ export const BedFrames = () => {
             </div>
             <NavBarComponent />
             <div className="bannerStripe">
-                <h1>Respaldos</h1>
+                <h1>/Respaldos</h1>
             </div>
             <div className="wrapper">
                 <div className="product">
