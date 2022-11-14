@@ -1,14 +1,36 @@
 import React from 'react';
+import { motion } from "framer-motion/dist/framer-motion";
 import './ContactInfo.css';
 import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 import { SiWhatsapp } from "react-icons/si";
 import { MdEmail, MdLocationOn, MdLocalPhone } from 'react-icons/md';
 
 export const ContactInfo = () => {
+    const animatedContainer = {
+        hidden: { opacity: 0 },
+        show: {
+            opacity: 1,
+            transition: {
+                staggerChildren: 0.2
+            }
+        }
+    }
+
+
+    const animatedItem = {
+        hidden: { opacity: 0, scale: 0 },
+        show: { opacity: 1, scale: 1 },
+    }
     return (
         <div className="contactContainer">
-            <div class="contact-info">
-                <div class="contactCard">
+            <motion.ol
+                variants={animatedContainer}
+                initial="hidden"
+                animate="show"
+                class="contact-info">
+                <motion.li variants={animatedItem}
+                    whileInView={{ opacity: 1 }}
+                    class="contactCard">
                     <i class="card-icon"><MdEmail /> </i>
                     <br />
                     <a className="contactInfoLinks" target="_blank" rel="noreferrer"
@@ -20,8 +42,10 @@ export const ContactInfo = () => {
                         <h6><FaFacebookSquare size="18px" /> Roma Muebles</h6>
                     </a>
                     <h7><MdEmail size="16px" />nestoraquino1984@gmail.com</h7>
-                </div>
-                <div class="contactCard">
+                </motion.li>
+                <motion.li variants={animatedItem}
+                    whileInView={{ opacity: 1 }}
+                    class="contactCard">
                     <i class="card-icon"><MdLocalPhone /></i>
                     <br />
                     <a className="contactInfoLinks"
@@ -43,14 +67,16 @@ export const ContactInfo = () => {
                         <h7><SiWhatsapp /> 1144140297</h7>
                     </a>
                     <h7><MdLocalPhone size="18px" /> 1175273793</h7>
-                </div>
-                <div class="contactCard">
+                </motion.li>
+                <motion.li variants={animatedItem}
+                    whileInView={{ opacity: 1 }}
+                    class="contactCard">
                     <i class="card-icon"><MdLocationOn /></i>
                     <br /><br />
                     <h4>José C. Paz GBA</h4>
                     <br />
-                </div>
-            </div>
+                </motion.li>
+            </motion.ol>
         </div>
     )
 }

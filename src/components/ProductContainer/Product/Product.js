@@ -1,17 +1,38 @@
 import React from 'react';
 import './Product.css';
 import { Link } from 'react-router-dom';
+import { motion, useAnimation } from "framer-motion/dist/framer-motion";
+import { useInView } from 'react-intersection-observer';
+import { useEffect } from 'react';
+
 import image3 from '../../../components/Carousel/Img/3.jpg';
 import image6 from '../../../components/Carousel/Img/6.jpg';
 import image7 from '../../../components/Carousel/Img/7.jpg';
 
 export const Product = () => {
 
+    const { ref, inView } = useInView();
+    const animation = useAnimation();
+    useEffect(() => {
+        if (inView) {
+            animation.start({
+                x: 0,
+                transition: { type: 'spring', duration: 1, bounce: 0.3 }
+            })
+        }
+        if (!inView) {
+            animation.start({ x: '-100vw' })
+        }
+    }, [inView])
     return (
         <div>
             <h1 className="categoriesTitle">Nuestros productos</h1>
-            <div className="wrapper">
-                <div className="product">
+            <motion.ol ref={ref}
+                className="wrapper"
+            >
+                <motion.li
+                    animate={animation}
+                    className="product">
                     <div className="productContainer" >
                         <div className="imgContainer">
                             <Link to='/Camas'>
@@ -28,8 +49,9 @@ export const Product = () => {
                             <br />
                         </div>
                     </div>
-                </div>
-                <div className="product">
+                </motion.li>
+                <motion.li className="product"
+                    animate={animation}>
                     <div className="productContainer" >
                         <div className="imgContainer">
                             <Link to='/Mesasdeluz'>
@@ -46,8 +68,9 @@ export const Product = () => {
                             <br />
                         </div>
                     </div>
-                </div>
-                <div className="product">
+                </motion.li>
+                < motion.li className="product"
+                    animate={animation}>
                     <div className="productContainer" >
                         <div className="imgContainer">
                             <Link to='/Respaldos'>
@@ -64,8 +87,9 @@ export const Product = () => {
                             <br />
                         </div>
                     </div>
-                </div>
-                <div className="product">
+                </motion.li>
+                <motion.li className="product"
+                    animate={animation}>
                     <div className="productContainer" >
                         <div className="imgContainer">
                             <Link to='/Combos'>
@@ -82,8 +106,9 @@ export const Product = () => {
                             <br />
                         </div>
                     </div>
-                </div>
-            </div >
+                </motion.li>
+            </motion.ol >
+
         </div>
     )
 }

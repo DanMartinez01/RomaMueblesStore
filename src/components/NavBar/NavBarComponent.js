@@ -6,11 +6,12 @@ import { ImFacebook } from 'react-icons/im';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 
 export const NavBarComponent = (props) => {
-
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" >
-            <Container>
-                <Navbar.Brand as={Link} to={"/"}><h3>Roma Muebles</h3></Navbar.Brand>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+            <Container className="navbarContainer">
+                <Navbar.Brand as={Link} to={"/"}>
+                    Roma Muebles
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
@@ -31,7 +32,7 @@ export const NavBarComponent = (props) => {
                     </Nav>
                 </Navbar.Collapse>
             </Container>
-        </Navbar>
+        </Navbar >
 
     )
 }

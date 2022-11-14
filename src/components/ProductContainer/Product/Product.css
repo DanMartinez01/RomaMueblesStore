@@ -11,7 +11,7 @@
 
 .product {
     display: flex;
-    width: calc (100% - 20px);
+    width: calc (80% - 20px);
     padding: 0 2px;
     margin: auto;
     margin-top: 10px;
@@ -26,11 +26,13 @@
     transform: scale(1.1);
 }
 
-.productContainer {
+/* .productContainer {
+
     margin-bottom: 4px;
     justify-content: center;
     padding-bottom: 0px;
-}
+    background-color: aqua;
+} */
 
 .imgContainer {
     text-align: center;
