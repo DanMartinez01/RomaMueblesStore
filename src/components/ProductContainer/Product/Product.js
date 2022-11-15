@@ -23,7 +23,7 @@ export const Product = () => {
         if (!inView) {
             animation.start({ x: '-100vw' })
         }
-    }, [inView])
+    })
     return (
         <div>
             <h1 className="categoriesTitle">Nuestros productos</h1>
