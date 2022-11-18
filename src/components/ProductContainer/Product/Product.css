@@ -20,9 +20,10 @@
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
-    -webkit-box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
+    /* -webkit-box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
     -moz-box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
-    box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1);
+    box-shadow: 4px 4px 5px 0px rgba(237, 237, 237, 1); */
+
 }
 
 .product:hover {
@@ -71,6 +72,7 @@
     padding: 30px;
     color: white;
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .categoriesText {

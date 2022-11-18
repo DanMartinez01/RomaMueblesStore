@@ -5,6 +5,13 @@
 .bannerStripe {
     background-color: #E67E22;
     padding: 5px;
+    display: flex;
+    text-align: center;
+}
+
+.bannerStripe h1 {
+    margin: auto;
+    text-transform: uppercase;
 }
 
 h1 {
