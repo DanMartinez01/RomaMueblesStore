@@ -76,7 +76,9 @@ export const BedFrames = () => {
                     <div className="card">
                         <div>
                             <div className="imgContainer">
-                                <img src={image9} className="productPhoto"
+                                <img src={image9}
+                                    width="300px"
+                                    height="200px"
                                     alt="respaldo para cama"
                                 />
                             </div>

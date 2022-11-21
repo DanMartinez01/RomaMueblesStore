@@ -17,7 +17,7 @@ export const Sets = () => {
     }, [])
 
     return (
-        <div>
+        <div className='setContainer'>
             <div>
                 <a
                     href="https://wa.me/5491130666726"
@@ -34,13 +34,10 @@ export const Sets = () => {
             <div className="bannerStripe">
                 <h1>/Combos</h1>
             </div>
-            <h3 className="comboDescription"><b>Ahorrá llevando el combo!</b>
-                <br />
-                <h5 className="comboDescription">Consulte por otros colores y modelos</h5>
-            </h3>
+            <h3 className="comboDescription"><b>Ahorrá llevando el combo!</b></h3>
+            <p className="comboDescription">Consulte por otros colores y modelos</p>
             <div className="ComboWrapper">
                 <div className="CardCombo">
-                    <h3><b>Combo 1</b></h3>
                     <div className="ProductsImg">
                         <img src={image3} className="ComboImg"
                             alt="cama box con cajones"
@@ -76,7 +73,6 @@ export const Sets = () => {
                     </div>
                 </div>
                 <div className="CardCombo" >
-                    <h3><b>Combo 2</b></h3>
                     <div className="ProductsImg">
                         <img src={image3} className="ComboImg"
                             alt="cama box con cajones"

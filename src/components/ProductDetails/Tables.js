@@ -40,7 +40,9 @@ export const Tables = () => {
                     <div className="card">
                         <div className="productBox">
                             <div className="imgContainer">
-                                <img src={image6} className="productPhoto"
+                                <img src={image6}
+                                    width="300px"
+                                    height="200px"
                                     alt="mesa de luz flotante"
                                 />
                             </div>
@@ -85,7 +87,9 @@ export const Tables = () => {
                     <div className="card">
                         <div>
                             <div className="imgContainer">
-                                <img src={image8} className="productPhoto"
+                                <img src={image8}
+                                    width="300px"
+                                    height="200px"
                                     alt="mesa de luz flotante"
                                 />
                             </div>

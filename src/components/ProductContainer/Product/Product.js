@@ -17,7 +17,7 @@ export const Product = () => {
         if (inView) {
             animation.start({
                 x: 0,
-                transition: { type: 'spring', duration: 1, bounce: 0.3 }
+                transition: { type: 'spring', duration: 2, bounce: 0.3 }
             })
         }
         if (!inView) {
@@ -28,84 +28,83 @@ export const Product = () => {
         <div>
             <h1 className="categoriesTitle">Nuestros productos</h1>
             <motion.ol ref={ref}
-                className="wrapper"
+                className="Categorieswrapper"
             >
                 <motion.li
                     animate={animation}
-                    className="product">
-                    <div className="productContainer" >
-                        <div className="imgContainer">
-                            <Link to='/Camas'>
-                                <img src={image3} className="productPhoto"
-                                    alt="cama box con cajones"
-                                />
-                            </Link>
-                        </div>
-                        <div className="colorStripe">
-                            <br />
-                            <Link className="infoSectionLink" to='/Camas'>
-                                <p className="categoriesText">Camas</p>
-                            </Link>
-                            <br />
-                        </div>
+                    className="categoryCard">
+                    <div className="imgContainer">
+                        <Link to='/Camas'>
+                            <img src={image3} className="productPhoto"
+                                alt="cama box con cajones"
+                            />
+                        </Link>
+                    </div>
+                    <div className="colorStripe">
+                        <br />
+                        <Link className="infoSectionLink" to='/Camas'>
+                            <p className="categoriesText">Camas</p>
+                        </Link>
+                        <br />
                     </div>
                 </motion.li>
-                <motion.li className="product"
+                <motion.li className="categoryCard"
                     animate={animation}>
-                    <div className="productContainer" >
-                        <div className="imgContainer">
-                            <Link to='/Mesasdeluz'>
-                                <img src={image6} className="productPhoto"
-                                    alt="mesa de luz flotante"
-                                />
-                            </Link>
-                        </div>
-                        <div className="colorStripe">
-                            <br />
-                            <Link className="infoSectionLink" to='/Mesasdeluz'>
-                                <p className="categoriesText">Mesas de luz</p>
-                            </Link>
-                            <br />
-                        </div>
+                    <div className="imgContainer">
+                        <Link to='/Mesasdeluz'>
+                            <img src={image6}
+                                width="220px"
+                                height="220px"
+                                alt="mesa de luz flotante"
+                            />
+                        </Link>
                     </div>
+                    <div className="colorStripe">
+                        <br />
+                        <Link className="infoSectionLink" to='/Mesasdeluz'>
+                            <p className="categoriesText">Mesas de luz</p>
+                        </Link>
+                        <br />
+                    </div>
+
                 </motion.li>
-                < motion.li className="product"
+                < motion.li className="categoryCard"
                     animate={animation}>
-                    <div className="productContainer" >
-                        <div className="imgContainer">
-                            <Link to='/Respaldos'>
-                                <img src={image7} className="productPhoto"
-                                    alt="respaldos de melamina"
-                                />
-                            </Link>
-                        </div>
-                        <div className="colorStripe">
-                            <br />
-                            <Link className="infoSectionLink" to='/Respaldos'>
-                                <p className="categoriesText">Respaldos</p>
-                            </Link>
-                            <br />
-                        </div>
+
+                    <div className="imgContainer">
+                        <Link to='/Respaldos'>
+                            <img src={image7} className="productPhoto"
+                                alt="respaldos de melamina"
+                            />
+                        </Link>
                     </div>
+                    <div className="colorStripe">
+                        <br />
+                        <Link className="infoSectionLink" to='/Respaldos'>
+                            <p className="categoriesText">Respaldos</p>
+                        </Link>
+                        <br />
+                    </div>
+
                 </motion.li>
-                <motion.li className="product"
+                <motion.li className="categoryCard"
                     animate={animation}>
-                    <div className="productContainer" >
-                        <div className="imgContainer">
-                            <Link to='/Combos'>
-                                <img src={image3} className="productPhoto"
-                                    alt="cambo: cama mesita de luz respaldo"
-                                />
-                            </Link>
-                        </div>
-                        <div className="colorStripe">
-                            <br />
-                            <Link className="infoSectionLink" to='/Combos'>
-                                <p className="categoriesText">Pedí el combo!</p>
-                            </Link>
-                            <br />
-                        </div>
+
+                    <div className="imgContainer">
+                        <Link to='/Combos'>
+                            <img src={image3} className="productPhoto"
+                                alt="cambo: cama mesita de luz respaldo"
+                            />
+                        </Link>
                     </div>
+                    <div className="colorStripe">
+                        <br />
+                        <Link className="infoSectionLink" to='/Combos'>
+                            <p className="categoriesText">Pedí el combo!</p>
+                        </Link>
+                        <br />
+                    </div>
+
                 </motion.li>
             </motion.ol >
 

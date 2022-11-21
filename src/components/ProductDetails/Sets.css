@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+.comboDescription {
+    text-align: center;
+}
+
 .CardCombo {
     background-color: #ffff;
     padding: 10px;
